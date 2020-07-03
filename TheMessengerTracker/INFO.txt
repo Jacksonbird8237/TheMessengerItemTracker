@@ -1,0 +1,15 @@
+Jacksonbird8237's Messenger Item Tracker
+(based off crossproduct's alttp tracker)
+
+
+How to use:
+run the html file. it will open in a browser window.
+(note: idk what scaling whould look good so right now i only have one settign for that let me know if you want it displayed smaller)
+left click the item icons to show that you have obtained it.
+Candle will go: no candle -> candle -> seeds -> candle+seeds -> leaves -> candle_leaves -> no candle
+
+I will be adding item locations which will tell you what items are in logic in a future update.
+Please let me know of any bugs :P
+
+
+Msg me on discord if oyu have any questions: Jacksonbird8237#5186
