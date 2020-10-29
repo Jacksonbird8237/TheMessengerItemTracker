@@ -4,11 +4,18 @@ Jacksonbird8237's Messenger Item Tracker
 
 How to use:
 run the html file. it will open in a browser window.
-(note: idk what scaling whould look good so right now i only have one settign for that let me know if you want it displayed smaller)
+(note: idk what scaling whould look good so right now i only have one setting for that let me know if you want it displayed smaller or bigger etc)
 left click the item icons to show that you have obtained it.
-Candle will go: no candle -> candle -> seeds -> candle+seeds -> leaves -> candle_leaves -> no candle
+Candle will go: no candle -> candle -> seeds -> candle+seeds -> leaves -> candle+leaves -> no candle
 
-I will be adding item locations which will tell you what items are in logic in a future update.
+you can click the squares on the map to show that you got that item location. mouse over the location to see what it corresponds to. 
+GREEN = obtainable in logic
+YELLOW = obtainable out of logic
+RED = unobtainable
+GRAY = checked
+
+Edit 10/29/20: I added seals which are the circle checks on the map. Currently there is no logic for them so they will all appear green even if you can't get them yet. I will edit this when I add logic. If you want the seals to appear hit the "adavnced" button at the bottom. You can hit the "Normal" button to switch back.
+
 Please let me know of any bugs :P
 
 
