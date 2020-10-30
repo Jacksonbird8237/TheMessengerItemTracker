@@ -14,7 +14,7 @@ YELLOW = obtainable out of logic
 RED = unobtainable
 GRAY = checked
 
-Edit 10/29/20: I added seals which are the circle checks on the map. Currently there is no logic for them so they will all appear green even if you can't get them yet. I will edit this when I add logic. If you want the seals to appear hit the "adavnced" button at the bottom. You can hit the "Normal" button to switch back.
+Edit 10/30/20: I added seals which are the circle checks on the map. Currently there is no logic for yellow seals. I will edit this when I add logic for yellow seals. If you want the seals to appear hit the "adavnced" button at the bottom. You can hit the "Normal" button to switch back.
 
 Please let me know of any bugs :P
 

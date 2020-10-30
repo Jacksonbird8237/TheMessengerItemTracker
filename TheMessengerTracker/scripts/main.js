@@ -21,6 +21,7 @@ let advbtn = document.querySelector('.advbutton');
 advbtn.onclick = function() {
 	isAdvanced = true;
 	updateType();
+	sealLogic();
 }
 let nrmlbtn = document.querySelector('.nrmlbutton');
 nrmlbtn.onclick = function() {
@@ -48,6 +49,7 @@ villageSeal1.onclick = function() {
 	} else {
 		villageSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let autumnSeal1 = document.querySelector('.autumnSeal1');
 autumnSeal1.onclick = function() {
@@ -57,6 +59,7 @@ autumnSeal1.onclick = function() {
 	} else {
 		autumnSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let autumnSeal2 = document.querySelector('.autumnSeal2');
 autumnSeal2.onclick = function() {
@@ -66,6 +69,7 @@ autumnSeal2.onclick = function() {
 	} else {
 		autumnSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let autumnSeal3 = document.querySelector('.autumnSeal3');
 autumnSeal3.onclick = function() {
@@ -75,6 +79,7 @@ autumnSeal3.onclick = function() {
 	} else {
 		autumnSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let autumnSeal4 = document.querySelector('.autumnSeal4');
 autumnSeal4.onclick = function() {
@@ -84,6 +89,7 @@ autumnSeal4.onclick = function() {
 	} else {
 		autumnSeal4.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let forlornSeal1 = document.querySelector('.forlornSeal1');
 forlornSeal1.onclick = function() {
@@ -93,6 +99,7 @@ forlornSeal1.onclick = function() {
 	} else {
 		forlornSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let forlornSeal2 = document.querySelector('.forlornSeal2');
 forlornSeal2.onclick = function() {
@@ -102,6 +109,7 @@ forlornSeal2.onclick = function() {
 	} else {
 		forlornSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let catacombsSeal1 = document.querySelector('.catacombsSeal1');
 catacombsSeal1.onclick = function() {
@@ -111,6 +119,7 @@ catacombsSeal1.onclick = function() {
 	} else {
 		catacombsSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let catacombsSeal2 = document.querySelector('.catacombsSeal2');
 catacombsSeal2.onclick = function() {
@@ -120,6 +129,7 @@ catacombsSeal2.onclick = function() {
 	} else {
 		catacombsSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let catacombsSeal3 = document.querySelector('.catacombsSeal3');
 catacombsSeal3.onclick = function() {
@@ -129,6 +139,7 @@ catacombsSeal3.onclick = function() {
 	} else {
 		catacombsSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let bambooSeal1 = document.querySelector('.bambooSeal1');
 bambooSeal1.onclick = function() {
@@ -138,6 +149,7 @@ bambooSeal1.onclick = function() {
 	} else {
 		bambooSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let bambooSeal2 = document.querySelector('.bambooSeal2');
 bambooSeal2.onclick = function() {
@@ -147,6 +159,7 @@ bambooSeal2.onclick = function() {
 	} else {
 		bambooSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let bambooSeal3 = document.querySelector('.bambooSeal3');
 bambooSeal3.onclick = function() {
@@ -156,6 +169,7 @@ bambooSeal3.onclick = function() {
 	} else {
 		bambooSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let howlingSeal1 = document.querySelector('.howlingSeal1');
 howlingSeal1.onclick = function() {
@@ -219,6 +233,7 @@ cragsSeal1.onclick = function() {
 	} else {
 		cragsSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cragsSeal2 = document.querySelector('.cragsSeal2');
 cragsSeal2.onclick = function() {
@@ -228,6 +243,7 @@ cragsSeal2.onclick = function() {
 	} else {
 		cragsSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cragsSeal3 = document.querySelector('.cragsSeal3');
 cragsSeal3.onclick = function() {
@@ -237,6 +253,7 @@ cragsSeal3.onclick = function() {
 	} else {
 		cragsSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let glacialSeal1 = document.querySelector('.glacialSeal1');
 glacialSeal1.onclick = function() {
@@ -246,6 +263,7 @@ glacialSeal1.onclick = function() {
 	} else {
 		glacialSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let glacialSeal2 = document.querySelector('.glacialSeal2');
 glacialSeal2.onclick = function() {
@@ -255,6 +273,7 @@ glacialSeal2.onclick = function() {
 	} else {
 		glacialSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let glacialSeal3 = document.querySelector('.glacialSeal3');
 glacialSeal3.onclick = function() {
@@ -264,6 +283,7 @@ glacialSeal3.onclick = function() {
 	} else {
 		glacialSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let towerSeal1 = document.querySelector('.towerSeal1');
 towerSeal1.onclick = function() {
@@ -273,6 +293,7 @@ towerSeal1.onclick = function() {
 	} else {
 		towerSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let towerSeal2 = document.querySelector('.towerSeal2');
 towerSeal2.onclick = function() {
@@ -282,6 +303,7 @@ towerSeal2.onclick = function() {
 	} else {
 		towerSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let towerSeal3 = document.querySelector('.towerSeal3');
 towerSeal3.onclick = function() {
@@ -291,6 +313,7 @@ towerSeal3.onclick = function() {
 	} else {
 		towerSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cloudruinSeal1 = document.querySelector('.cloudruinSeal1');
 cloudruinSeal1.onclick = function() {
@@ -300,6 +323,7 @@ cloudruinSeal1.onclick = function() {
 	} else {
 		cloudruinSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cloudruinSeal2 = document.querySelector('.cloudruinSeal2');
 cloudruinSeal2.onclick = function() {
@@ -309,6 +333,7 @@ cloudruinSeal2.onclick = function() {
 	} else {
 		cloudruinSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cloudruinSeal3 = document.querySelector('.cloudruinSeal3');
 cloudruinSeal3.onclick = function() {
@@ -318,6 +343,7 @@ cloudruinSeal3.onclick = function() {
 	} else {
 		cloudruinSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let cloudruinSeal4 = document.querySelector('.cloudruinSeal4');
 cloudruinSeal4.onclick = function() {
@@ -327,6 +353,7 @@ cloudruinSeal4.onclick = function() {
 	} else {
 		cloudruinSeal4.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let underworldSeal1 = document.querySelector('.underworldSeal1');
 underworldSeal1.onclick = function() {
@@ -336,6 +363,7 @@ underworldSeal1.onclick = function() {
 	} else {
 		underworldSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let underworldSeal2 = document.querySelector('.underworldSeal2');
 underworldSeal2.onclick = function() {
@@ -345,6 +373,7 @@ underworldSeal2.onclick = function() {
 	} else {
 		underworldSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let underworldSeal3 = document.querySelector('.underworldSeal3');
 underworldSeal3.onclick = function() {
@@ -354,6 +383,7 @@ underworldSeal3.onclick = function() {
 	} else {
 		underworldSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let underworldSeal4 = document.querySelector('.underworldSeal4');
 underworldSeal4.onclick = function() {
@@ -363,6 +393,7 @@ underworldSeal4.onclick = function() {
 	} else {
 		underworldSeal4.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let sunkenSeal1 = document.querySelector('.sunkenSeal1');
 sunkenSeal1.onclick = function() {
@@ -381,6 +412,7 @@ sunkenSeal2.onclick = function() {
 	} else {
 		sunkenSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let sunkenSeal3 = document.querySelector('.sunkenSeal3');
 sunkenSeal3.onclick = function() {
@@ -390,6 +422,7 @@ sunkenSeal3.onclick = function() {
 	} else {
 		sunkenSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let riviereSeal1 = document.querySelector('.riviereSeal1');
 riviereSeal1.onclick = function() {
@@ -417,6 +450,7 @@ riviereSeal3.onclick = function() {
 	} else {
 		riviereSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let skylandsSeal1 = document.querySelector('.skylandsSeal1');
 skylandsSeal1.onclick = function() {
@@ -426,6 +460,7 @@ skylandsSeal1.onclick = function() {
 	} else {
 		skylandsSeal1.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let skylandsSeal2 = document.querySelector('.skylandsSeal2');
 skylandsSeal2.onclick = function() {
@@ -435,6 +470,7 @@ skylandsSeal2.onclick = function() {
 	} else {
 		skylandsSeal2.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 let skylandsSeal3 = document.querySelector('.skylandsSeal3');
 skylandsSeal3.onclick = function() {
@@ -444,6 +480,7 @@ skylandsSeal3.onclick = function() {
 	} else {
 		skylandsSeal3.setAttribute ('src','images/GreenSealCheck.png');
 	}
+	sealLogic();
 }
 
 //Inventory
@@ -458,6 +495,7 @@ windmillT.onclick = function() {
 	  hasWindmill = false;
     }
 	logic();
+	//add sealLogic call when ready
 }
 
 let wingsuitT = document.querySelector('.wingsuitBW');
@@ -471,6 +509,9 @@ wingsuitT.onclick = function() {
 		hasWingsuit = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let grappleT = document.querySelector('.grappleBW');
@@ -484,6 +525,9 @@ grappleT.onclick = function() {
 		hasGrapple = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let tabiT = document.querySelector('.tabiBW');
@@ -497,6 +541,9 @@ tabiT.onclick = function() {
 		hasTabi = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let candleT = document.querySelector('.candleBW');
@@ -569,6 +616,9 @@ amuletT.onclick = function() {
 		hasAmulet = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let flyT = document.querySelector('.flyBW');
@@ -582,6 +632,9 @@ flyT.onclick = function() {
 		hasFly = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let sunT = document.querySelector('.sunBW');
@@ -681,6 +734,9 @@ acroT.onclick = function() {
 		hasAcro = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let necroT = document.querySelector('.necroBW');
@@ -694,6 +750,9 @@ necroT.onclick = function() {
 		hasNecro = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let claustroT = document.querySelector('.claustroBW');
@@ -707,6 +766,9 @@ claustroT.onclick = function() {
 		hasClaustro = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let pyroT = document.querySelector('.pyroBW');
@@ -720,6 +782,9 @@ pyroT.onclick = function() {
 		hasPyro = false;
 	}
 	logic();
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 //MAP
@@ -1111,6 +1176,297 @@ function logic() {
 			corrupt1.setAttribute('src','images/GreenCheck.png');
 		} else {
 			corrupt1.setAttribute('src','images/RedCheck.png');
+		}
+	}
+}
+//Seals logic
+function sealLogic() {
+	mySrc = villageSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			villageSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			villageSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = autumnSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			autumnSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			autumnSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = autumnSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			autumnSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			autumnSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = autumnSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			autumnSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			autumnSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = autumnSeal4.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			autumnSeal4.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			autumnSeal4.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = forlornSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true && hasWingsuit === true) {
+			forlornSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			forlornSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = forlornSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true && hasWingsuit === true) {
+			forlornSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			forlornSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = catacombsSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			catacombsSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			catacombsSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = catacombsSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			catacombsSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			catacombsSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = catacombsSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			catacombsSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			catacombsSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = bambooSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			bambooSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			bambooSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = bambooSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			bambooSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			bambooSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = bambooSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			bambooSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			bambooSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cragsSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			cragsSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cragsSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cragsSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			cragsSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cragsSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cragsSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			cragsSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cragsSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = glacialSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasGrapple === true) {
+			glacialSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			glacialSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = glacialSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			glacialSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			glacialSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = glacialSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			glacialSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			glacialSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = towerSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasGrapple === true) {
+			towerSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			towerSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = towerSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true) {
+			towerSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			towerSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = towerSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true && hasGrapple === true) {
+			towerSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			towerSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cloudruinSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasAmulet === true && hasWingsuit === true) {
+			cloudruinSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cloudruinSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cloudruinSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasAmulet === true && hasWingsuit === true) {
+			cloudruinSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cloudruinSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cloudruinSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasAmulet === true && hasWingsuit === true) {
+			cloudruinSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cloudruinSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = cloudruinSeal4.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasAmulet === true && hasWingsuit === true) {
+			cloudruinSeal4.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			cloudruinSeal4.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = underworldSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true && hasTabi === true) {
+			underworldSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			underworldSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = underworldSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasTabi === true) {
+			underworldSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			underworldSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = underworldSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true && hasTabi === true) {
+			underworldSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			underworldSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = underworldSeal4.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasGrapple === true && hasTabi === true) {
+			underworldSeal4.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			underworldSeal4.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = sunkenSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasTabi === true) {
+			sunkenSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			sunkenSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = sunkenSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasTabi === true) {
+			sunkenSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			sunkenSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = riviereSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasWingsuit === true || hasGrapple === true) {
+			riviereSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			riviereSeal3.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = skylandsSeal1.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasFly === true && hasWingsuit === true) {
+			skylandsSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			skylandsSeal1.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = skylandsSeal2.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasFly === true && hasGrapple === true) {
+			skylandsSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			skylandsSeal2.setAttribute('src','images/RedSealCheck.png');
+		}
+	}
+	mySrc = skylandsSeal3.getAttribute('src');
+	if(mySrc !== 'images/GraySealCheck.png') {
+		if(hasFly === true && hasWingsuit === true && hasGrapple === true) {
+			skylandsSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else {
+			skylandsSeal3.setAttribute('src','images/RedSealCheck.png');
 		}
 	}
 }
