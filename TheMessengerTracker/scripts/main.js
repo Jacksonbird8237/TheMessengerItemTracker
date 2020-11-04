@@ -495,7 +495,9 @@ windmillT.onclick = function() {
 	  hasWindmill = false;
     }
 	logic();
-	//add sealLogic call when ready
+	if(isAdvanced === true) {
+		sealLogic();
+	}
 }
 
 let wingsuitT = document.querySelector('.wingsuitBW');
@@ -1082,7 +1084,7 @@ function logic() {
 	if(mySrc !== 'images/GrayCheck.png') {
 		if(hasFly === true && hasGrapple === true) {
 			skylands1.setAttribute('src','images/GreenCheck.png');
-		} else if(hasGrapple === true || hasWindmill === true) {
+		} else if(hasGrapple === true || hasWindmill === true || (hasWingsuit === true && hasFly === true)) {
 			skylands1.setAttribute('src','images/YellowCheck.png');
 		} else {
 			skylands1.setAttribute('src','images/RedCheck.png');
@@ -1183,8 +1185,10 @@ function logic() {
 function sealLogic() {
 	mySrc = villageSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
-		if(hasWingsuit === true) {
+		if(hasWingsuit === true && hasGrapple === true) {
 			villageSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasGrapple === true) { 
+			villageSeal1.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			villageSeal1.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1194,7 +1198,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			autumnSeal1.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			autumnSeal1.setAttribute('src','images/RedSealCheck.png');
+			autumnSeal1.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = autumnSeal2.getAttribute('src');
@@ -1202,7 +1206,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			autumnSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			autumnSeal2.setAttribute('src','images/RedSealCheck.png');
+			autumnSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = autumnSeal3.getAttribute('src');
@@ -1210,13 +1214,15 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			autumnSeal3.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			autumnSeal3.setAttribute('src','images/RedSealCheck.png');
+			autumnSeal3.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = autumnSeal4.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasWingsuit === true) {
 			autumnSeal4.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWindmill === true) {
+			autumnSeal4.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			autumnSeal4.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1225,6 +1231,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true && hasWingsuit === true) {
 			forlornSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else if((hasWingsuit === true && hasWindmill === true) || (hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true)) {
+			forlornSeal1.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			forlornSeal1.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1233,6 +1241,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true && hasWingsuit === true) {
 			forlornSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else if((hasWingsuit === true && hasWindmill === true) || (hasClaustro === true && hasNecro === true && hasAcro === true && hasPyro === true)) {
+			forlornSeal2.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			forlornSeal2.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1242,7 +1252,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			catacombsSeal1.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			catacombsSeal1.setAttribute('src','images/RedSealCheck.png');
+			catacombsSeal1.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = catacombsSeal2.getAttribute('src');
@@ -1250,7 +1260,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			catacombsSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			catacombsSeal2.setAttribute('src','images/RedSealCheck.png');
+			catacombsSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = catacombsSeal3.getAttribute('src');
@@ -1258,7 +1268,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			catacombsSeal3.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			catacombsSeal3.setAttribute('src','images/RedSealCheck.png');
+			catacombsSeal3.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = bambooSeal1.getAttribute('src');
@@ -1266,7 +1276,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			bambooSeal1.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			bambooSeal1.setAttribute('src','images/RedSealCheck.png');
+			bambooSeal1.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = bambooSeal2.getAttribute('src');
@@ -1274,7 +1284,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			bambooSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			bambooSeal2.setAttribute('src','images/RedSealCheck.png');
+			bambooSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = bambooSeal3.getAttribute('src');
@@ -1282,7 +1292,7 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			bambooSeal3.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			bambooSeal3.setAttribute('src','images/RedSealCheck.png');
+			bambooSeal3.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = cragsSeal1.getAttribute('src');
@@ -1290,7 +1300,7 @@ function sealLogic() {
 		if(hasWingsuit === true || hasGrapple === true) {
 			cragsSeal1.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			cragsSeal1.setAttribute('src','images/RedSealCheck.png');
+			cragsSeal1.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = cragsSeal2.getAttribute('src');
@@ -1298,7 +1308,7 @@ function sealLogic() {
 		if(hasWingsuit === true || hasGrapple === true) {
 			cragsSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			cragsSeal2.setAttribute('src','images/RedSealCheck.png');
+			cragsSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = cragsSeal3.getAttribute('src');
@@ -1306,13 +1316,15 @@ function sealLogic() {
 		if(hasWingsuit === true || hasGrapple === true) {
 			cragsSeal3.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			cragsSeal3.setAttribute('src','images/RedSealCheck.png');
+			cragsSeal3.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = glacialSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasGrapple === true) {
 			glacialSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWingsuit === true) {
+			glacialSeal1.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			glacialSeal1.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1322,13 +1334,15 @@ function sealLogic() {
 		if(hasWingsuit === true || hasGrapple === true) {
 			glacialSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			glacialSeal2.setAttribute('src','images/RedSealCheck.png');
+			glacialSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = glacialSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasWingsuit === true || hasGrapple === true) {
 			glacialSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWindmill === true) {
+			glacialSeal3.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			glacialSeal3.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1346,13 +1360,15 @@ function sealLogic() {
 		if(hasWingsuit === true) {
 			towerSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			towerSeal2.setAttribute('src','images/RedSealCheck.png');
+			towerSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = towerSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasWingsuit === true && hasGrapple === true) {
 			towerSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasGrapple === true) {
+			towerSeal3.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			towerSeal3.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1394,7 +1410,7 @@ function sealLogic() {
 		if(hasWingsuit === true && hasTabi === true) {
 			underworldSeal1.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			underworldSeal1.setAttribute('src','images/RedSealCheck.png');
+			underworldSeal1.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = underworldSeal2.getAttribute('src');
@@ -1402,13 +1418,15 @@ function sealLogic() {
 		if(hasTabi === true) {
 			underworldSeal2.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			underworldSeal2.setAttribute('src','images/RedSealCheck.png');
+			underworldSeal2.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = underworldSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasWingsuit === true && hasTabi === true) {
 			underworldSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWingsuit === true || hasWindmill === true) {
+			underworldSeal3.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			underworldSeal3.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1417,6 +1435,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasGrapple === true && hasTabi === true) {
 			underworldSeal4.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWingsuit === true || hasGrapple === true) {
+			underworldSeal4.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			underworldSeal4.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1425,6 +1445,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasTabi === true) {
 			sunkenSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWingsuit === true || hasGrapple === true) {
+			sunkenSeal2.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			sunkenSeal2.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1442,13 +1464,15 @@ function sealLogic() {
 		if(hasWingsuit === true || hasGrapple === true) {
 			riviereSeal3.setAttribute('src','images/GreenSealCheck.png');
 		} else {
-			riviereSeal3.setAttribute('src','images/RedSealCheck.png');
+			riviereSeal3.setAttribute('src','images/YellowSealCheck.png');
 		}
 	}
 	mySrc = skylandsSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasFly === true && hasWingsuit === true) {
 			skylandsSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasWingsuit === true && (hasGrapple === true || hasWindmill === true)) {
+			skylandsSeal1.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			skylandsSeal1.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1457,6 +1481,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasFly === true && hasGrapple === true) {
 			skylandsSeal2.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasGrapple === true || hasWindmill === true) {
+			skylandsSeal2.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			skylandsSeal2.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1465,6 +1491,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasFly === true && hasWingsuit === true && hasGrapple === true) {
 			skylandsSeal3.setAttribute('src','images/GreenSealCheck.png');
+		} else if((hasFly === true || hasGrapple === true || hasWindmill === true) && hasWingsuit === true ) {
+			skylandsSeal3.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			skylandsSeal3.setAttribute('src','images/RedSealCheck.png');
 		}
