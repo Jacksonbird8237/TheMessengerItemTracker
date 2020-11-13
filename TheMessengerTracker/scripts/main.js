@@ -1221,7 +1221,7 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasWingsuit === true) {
 			autumnSeal4.setAttribute('src','images/GreenSealCheck.png');
-		} else if(hasWindmill === true) {
+		} else if(hasWindmill === true || hasGrapple === true) {
 			autumnSeal4.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			autumnSeal4.setAttribute('src','images/RedSealCheck.png');
@@ -1377,6 +1377,8 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasAmulet === true && hasWingsuit === true) {
 			cloudruinSeal1.setAttribute('src','images/GreenSealCheck.png');
+		} else if(hasAmulet === true && hasWindmill === true) {
+			cloudruinSeal1.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			cloudruinSeal1.setAttribute('src','images/RedSealCheck.png');
 		}
@@ -1481,7 +1483,7 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasFly === true && hasGrapple === true) {
 			skylandsSeal2.setAttribute('src','images/GreenSealCheck.png');
-		} else if(hasGrapple === true || hasWindmill === true) {
+		} else if(hasGrapple === true || hasWindmill === true || (hasWingsuit === true && hasFly === true)) {
 			skylandsSeal2.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			skylandsSeal2.setAttribute('src','images/RedSealCheck.png');
@@ -1491,7 +1493,7 @@ function sealLogic() {
 	if(mySrc !== 'images/GraySealCheck.png') {
 		if(hasFly === true && hasWingsuit === true && hasGrapple === true) {
 			skylandsSeal3.setAttribute('src','images/GreenSealCheck.png');
-		} else if((hasFly === true || hasGrapple === true || hasWindmill === true) && hasWingsuit === true ) {
+		} else if((hasFly === true && hasWingsuit === true) || hasGrapple === true || hasWindmill === true) {
 			skylandsSeal3.setAttribute('src','images/YellowSealCheck.png');
 		} else {
 			skylandsSeal3.setAttribute('src','images/RedSealCheck.png');
