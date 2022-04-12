@@ -4,3 +4,13 @@ html {
 img {
   width: 800px;
 }
+#Items * {position: absolute;width: 40px;cursor: pointer;}
+#LocationImages * {position: absolute;width: 13px;cursor: pointer;}
+#SealImages * {position: absolute;width: 13px;cursor: pointer;}
+#Inventory{position: absolute;}
+#InventoryHeader{color: #fff;}
+#MapImages{position: absolute;}
+#MapHeader{position: absolute;top: 410px;color: #fff;}
+#options{position: absolute;}
+#optionsHeader{position: absolute;top: 0px;left: 820px;color: #fff;}
+

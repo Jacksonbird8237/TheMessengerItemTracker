@@ -11,10 +11,11 @@ Candle will go: no candle -> candle -> seeds -> candle+seeds -> leaves -> candle
 you can click the squares on the map to show that you got that item location. mouse over the location to see what it corresponds to. 
 GREEN = obtainable in logic
 YELLOW = obtainable out of logic
+ORANGE = in theory obtainable out of logic (not proven)
 RED = unobtainable
 GRAY = checked
 
-Edit 10/29/20: I added seals which are the circle checks on the map. Currently there is no logic for them so they will all appear green even if you can't get them yet. I will edit this when I add logic. If you want the seals to appear hit the "adavnced" button at the bottom. You can hit the "Normal" button to switch back.
+Edit 11/3/20: I added seals which are the circle checks on the map. If you want the seals to appear hit the "advanced" button at the bottom. You can hit the "Normal" button to switch back.
 
 Please let me know of any bugs :P
 
