@@ -15,12 +15,48 @@
 		top: 430px;
 		left:0px;
 	  }
-	  .NVMapMax
+	  .NVMapImg
 	  {
 		width: 600px;
 		position: absolute;
 		top: 430px;
 		left:0px;
+	  }
+	  .NVtoAHwarp
+	  {
+		width: 53px;
+		height: 50px;
+		position: absolute;
+		top: 535px;
+		left: 450px;
+		background-color: rgba(69, 254, 127, 0.0);
+	  }
+	  .seeds
+	  {
+		width: 45px;
+		height: 45px;
+		position: absolute;
+		top: 458px;
+		left: 288px;
+		background-color: rgba(69, 254, 127, 0.0);
+	  }
+	  .candle
+	  {
+		width: 45px;
+		height: 45px;
+		position: absolute;
+		top: 615px;
+		left: 288px;
+		background-color: rgba(69, 254, 127, 0.0);
+	  }
+	  .NVseal1
+	  {
+		width: 37px;
+		height: 35px;
+		position: absolute;
+		top: 505px;
+		left: 82px;
+		background-color: rgba(69, 254, 127, 0.0);
 	  }
 	  .AHMapMax
 	  {
@@ -102,7 +138,7 @@
 	  }
 	  .ESMapMax
 	  {
-		width: 1000px;
+		width: 700px;
 		position: absolute;
 		top: 430px;
 		left:0px;
@@ -914,7 +950,15 @@
 	<div id="MapImages" name="MapImages" class="MapImages">
 	<div id="MapHeader" draggable="true">Map</div>
 	<div id="MaximizedMap" name="MaximizedMap" class="MaximizedMap">
-	<img src="images/Ninja_Village_Map.png" class="NVMapMax" id="NVMapMax" style="visibility:hidden;">
+	
+	<div class="NVMapMax" id="NVMapMax" style="visibility:hidden;">
+	<img src="images/Ninja_Village_Map.png" class="NVMapImg" id="NVMapImg">
+	<div class="NVtoAHwarp" id="NVtoAHwarp"></div>
+	<div class="seeds" id="seeds"></div>
+	<div class="candle" id="candle"></div>
+	<div class="NVseal1" id="NVseal1"></div>
+	</div>
+	
 	<img src="images/Autumn_Hills_Map.png" class="AHMapMax" id="AHMapMax" style="visibility:hidden;">
 	<img src="images/Catacombs_Map.png" class="CaMapMax" id="CaMapMax" style="visibility:hidden;">
 	<img src="images/Forlorn_Temple_Map.png" class="FTMapMax" id="FTMapMax" style="visibility:hidden;">
@@ -927,7 +971,7 @@
 	<img src="images/Searing_Crags_Map.png" class="SCMapMax" id="SCMapMax" style="visibility:hidden;">
 	<img src="images/Underworld_Map.png" class="UnMapMax" id="UnMapMax" style="visibility:hidden;">
 	<img src="images/Cloud_Ruins_Map.png" class="CRMapMax" id="CRMapMax" style="visibility:hidden;">
-	<img src="images/Elemental_Skylands_Map.png" class="ESMapMax" id="ESMapMax" style="visibility:hidden;">
+	<img src="images/Elemental_Skylands_Map2.png" class="ESMapMax" id="ESMapMax" style="visibility:hidden;">
 	<img src="images/Tower_of_Time_Map.png" class="TTMapMax" id="TTMapMax" style="visibility:hidden;">
 	<button class="backButton" id="backButton" style="visibility:hidden">Back</button>
 	</div>

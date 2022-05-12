@@ -23,7 +23,7 @@ sealbtn.onclick = function() {
 	if(isAdvanced === false) {
 		isAdvanced = true;
 		document.getElementById('SealImages').style.visibility="visible";
-		sealLogic();
+		logic();
 		return;
 	}
 	isAdvanced = false;
@@ -569,8 +569,10 @@ village1.onclick = function() {
 	mySrc = village1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		village1.setAttribute ('src','images/GrayCheck.png');
+		candle.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		village1.setAttribute ('src','images/GreenCheck.png');
+		NVseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -601,9 +603,11 @@ villageSeal1.onclick = function() {
 	mySrc = villageSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		villageSeal1.setAttribute ('src','images/GraySealCheck.png');
+		NVseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		villageSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		NVseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		logic();
 	}
 }
 let autumnSeal1 = document.querySelector('.autumnSeal1');
@@ -613,7 +617,7 @@ autumnSeal1.onclick = function() {
 		autumnSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		autumnSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let autumnSeal2 = document.querySelector('.autumnSeal2');
@@ -623,7 +627,7 @@ autumnSeal2.onclick = function() {
 		autumnSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		autumnSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let autumnSeal3 = document.querySelector('.autumnSeal3');
@@ -633,7 +637,7 @@ autumnSeal3.onclick = function() {
 		autumnSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		autumnSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let autumnSeal4 = document.querySelector('.autumnSeal4');
@@ -643,7 +647,7 @@ autumnSeal4.onclick = function() {
 		autumnSeal4.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		autumnSeal4.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let forlornSeal1 = document.querySelector('.forlornSeal1');
@@ -653,7 +657,7 @@ forlornSeal1.onclick = function() {
 		forlornSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		forlornSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let forlornSeal2 = document.querySelector('.forlornSeal2');
@@ -663,7 +667,7 @@ forlornSeal2.onclick = function() {
 		forlornSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		forlornSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let catacombsSeal1 = document.querySelector('.catacombsSeal1');
@@ -673,7 +677,7 @@ catacombsSeal1.onclick = function() {
 		catacombsSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		catacombsSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let catacombsSeal2 = document.querySelector('.catacombsSeal2');
@@ -683,7 +687,7 @@ catacombsSeal2.onclick = function() {
 		catacombsSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		catacombsSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let catacombsSeal3 = document.querySelector('.catacombsSeal3');
@@ -693,7 +697,7 @@ catacombsSeal3.onclick = function() {
 		catacombsSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		catacombsSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let bambooSeal1 = document.querySelector('.bambooSeal1');
@@ -703,7 +707,7 @@ bambooSeal1.onclick = function() {
 		bambooSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		bambooSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let bambooSeal2 = document.querySelector('.bambooSeal2');
@@ -713,7 +717,7 @@ bambooSeal2.onclick = function() {
 		bambooSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		bambooSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let bambooSeal3 = document.querySelector('.bambooSeal3');
@@ -723,7 +727,7 @@ bambooSeal3.onclick = function() {
 		bambooSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		bambooSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let howlingSeal1 = document.querySelector('.howlingSeal1');
@@ -787,7 +791,7 @@ cragsSeal1.onclick = function() {
 		cragsSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cragsSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cragsSeal2 = document.querySelector('.cragsSeal2');
@@ -797,7 +801,7 @@ cragsSeal2.onclick = function() {
 		cragsSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cragsSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cragsSeal3 = document.querySelector('.cragsSeal3');
@@ -807,7 +811,7 @@ cragsSeal3.onclick = function() {
 		cragsSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cragsSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let glacialSeal1 = document.querySelector('.glacialSeal1');
@@ -817,7 +821,7 @@ glacialSeal1.onclick = function() {
 		glacialSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		glacialSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let glacialSeal2 = document.querySelector('.glacialSeal2');
@@ -827,7 +831,7 @@ glacialSeal2.onclick = function() {
 		glacialSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		glacialSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let glacialSeal3 = document.querySelector('.glacialSeal3');
@@ -837,7 +841,7 @@ glacialSeal3.onclick = function() {
 		glacialSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		glacialSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let towerSeal1 = document.querySelector('.towerSeal1');
@@ -847,7 +851,7 @@ towerSeal1.onclick = function() {
 		towerSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		towerSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let towerSeal2 = document.querySelector('.towerSeal2');
@@ -857,7 +861,7 @@ towerSeal2.onclick = function() {
 		towerSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		towerSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let towerSeal3 = document.querySelector('.towerSeal3');
@@ -867,7 +871,7 @@ towerSeal3.onclick = function() {
 		towerSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		towerSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cloudruinSeal1 = document.querySelector('.cloudruinSeal1');
@@ -877,7 +881,7 @@ cloudruinSeal1.onclick = function() {
 		cloudruinSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cloudruinSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cloudruinSeal2 = document.querySelector('.cloudruinSeal2');
@@ -887,7 +891,7 @@ cloudruinSeal2.onclick = function() {
 		cloudruinSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cloudruinSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cloudruinSeal3 = document.querySelector('.cloudruinSeal3');
@@ -897,7 +901,7 @@ cloudruinSeal3.onclick = function() {
 		cloudruinSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cloudruinSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let cloudruinSeal4 = document.querySelector('.cloudruinSeal4');
@@ -907,7 +911,7 @@ cloudruinSeal4.onclick = function() {
 		cloudruinSeal4.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		cloudruinSeal4.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let underworldSeal1 = document.querySelector('.underworldSeal1');
@@ -917,7 +921,7 @@ underworldSeal1.onclick = function() {
 		underworldSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		underworldSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let underworldSeal2 = document.querySelector('.underworldSeal2');
@@ -927,7 +931,7 @@ underworldSeal2.onclick = function() {
 		underworldSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		underworldSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let underworldSeal3 = document.querySelector('.underworldSeal3');
@@ -937,7 +941,7 @@ underworldSeal3.onclick = function() {
 		underworldSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		underworldSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let underworldSeal4 = document.querySelector('.underworldSeal4');
@@ -947,7 +951,7 @@ underworldSeal4.onclick = function() {
 		underworldSeal4.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		underworldSeal4.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let sunkenSeal1 = document.querySelector('.sunkenSeal1');
@@ -966,7 +970,7 @@ sunkenSeal2.onclick = function() {
 		sunkenSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		sunkenSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let sunkenSeal3 = document.querySelector('.sunkenSeal3');
@@ -976,7 +980,7 @@ sunkenSeal3.onclick = function() {
 		sunkenSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		sunkenSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let riviereSeal1 = document.querySelector('.riviereSeal1');
@@ -1004,7 +1008,7 @@ riviereSeal3.onclick = function() {
 		riviereSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		riviereSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let skylandsSeal1 = document.querySelector('.skylandsSeal1');
@@ -1014,7 +1018,7 @@ skylandsSeal1.onclick = function() {
 		skylandsSeal1.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		skylandsSeal1.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let skylandsSeal2 = document.querySelector('.skylandsSeal2');
@@ -1024,7 +1028,7 @@ skylandsSeal2.onclick = function() {
 		skylandsSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		skylandsSeal2.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 let skylandsSeal3 = document.querySelector('.skylandsSeal3');
@@ -1034,7 +1038,7 @@ skylandsSeal3.onclick = function() {
 		skylandsSeal3.setAttribute ('src','images/GraySealCheck.png');
 	} else {
 		skylandsSeal3.setAttribute ('src','images/GreenSealCheck.png');
-		sealLogic();
+		logic();
 	}
 }
 
@@ -1181,6 +1185,7 @@ NVMapMin.onclick = function() {
 	mySrc = NVMapMin.getAttribute('src');
 	alert("you pressed NV Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.NVMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1189,6 +1194,7 @@ AHMapMin.onclick = function() {
 	mySrc = AHMapMin.getAttribute('src');
 	alert("you pressed AH Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.AHMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1197,6 +1203,7 @@ CaMapMin.onclick = function() {
 	mySrc = CaMapMin.getAttribute('src');
 	alert("you pressed Ca Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.CaMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1205,6 +1212,7 @@ FTMapMin.onclick = function() {
 	mySrc = FTMapMin.getAttribute('src');
 	alert("you pressed FT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.FTMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1213,6 +1221,7 @@ RTMapMin.onclick = function() {
 	mySrc = RTMapMin.getAttribute('src');
 	alert("you pressed RT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.RTMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1221,6 +1230,7 @@ BCMapMin.onclick = function() {
 	mySrc = BCMapMin.getAttribute('src');
 	alert("you pressed BC Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.BCMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1229,6 +1239,7 @@ HGMapMin.onclick = function() {
 	mySrc = HGMapMin.getAttribute('src');
 	alert("you pressed HG Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.HGMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1237,6 +1248,7 @@ SSMapMin.onclick = function() {
 	mySrc = SSMapMin.getAttribute('src');
 	alert("you pressed SS Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.SSMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1245,6 +1257,7 @@ QMMapMin.onclick = function() {
 	mySrc = QMMapMin.getAttribute('src');
 	alert("you pressed QM Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.QMMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1253,6 +1266,7 @@ GPMapMin.onclick = function() {
 	mySrc = GPMapMin.getAttribute('src');
 	alert("you pressed GP Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.GPMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1261,6 +1275,7 @@ SCMapMin.onclick = function() {
 	mySrc = SCMapMin.getAttribute('src');
 	alert("you pressed SC Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.SCMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1269,6 +1284,7 @@ UnMapMin.onclick = function() {
 	mySrc = UnMapMin.getAttribute('src');
 	alert("you pressed Un Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.UnMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1277,6 +1293,7 @@ CRMapMin.onclick = function() {
 	mySrc = CRMapMin.getAttribute('src');
 	alert("you pressed CR Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.CRMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1285,6 +1302,7 @@ ESMapMin.onclick = function() {
 	mySrc = ESMapMin.getAttribute('src');
 	alert("you pressed ES Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.ESMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
 }
@@ -1293,14 +1311,63 @@ TTMapMin.onclick = function() {
 	mySrc = TTMapMin.getAttribute('src');
 	alert("you pressed TT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
+	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.TTMapMax').style.visibility="visible";
 	document.querySelector('.backButton').style.visibility="visible";
+}
+
+let NVtoAHwarp = document.querySelector('.NVtoAHwarp');
+NVtoAHwarp.onclick = function() {
+	mySrc = NVtoAHwarp.getAttribute('src');
+	document.querySelector('.NVMapMax').style.visibility="hidden";
+	document.querySelector('.AHMapMax').style.visibility="visible";
+}
+let seeds = document.querySelector('.seeds');
+seeds.onclick = function() {
+	myStyle = seeds.getAttribute('style');
+	if(seeds.style.background !== "white") {
+		//alert("white found");
+		seeds.style="background: white;mix-blend-mode: saturation;";
+	} else {
+		//alert("white not found");
+		seeds.style="background: none; rgba(FF,FF,FF,0.0);";
+	}
+}
+let candle = document.querySelector('.candle');
+candle.onclick = function() {
+	myStyle = candle.getAttribute('style');
+	if(candle.style.background !== "white") {
+		//alert("white found");
+		candle.style="background: white;mix-blend-mode: saturation;";
+		village1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		//alert("white not found");
+		candle.style="background: none; rgba(FF,FF,FF,0.0);";
+		village1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let NVseal1 = document.querySelector('.NVseal1');
+NVseal1.onclick = function() {
+	myStyle = NVseal1.getAttribute('style');
+	if(NVseal1.style.background !== "white") {
+		//alert("white found");
+		NVseal1.style="background: white;mix-blend-mode: saturation;";
+		villageSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		//alert("white not found");
+		NVseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		villageSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
 }
 let backButton = document.querySelector('.backButton');
 backButton.onclick = function() {
 	mySrc = backButton.getAttribute('src');
 	alert("you pressed BACK BUTTON");
 	document.querySelector('.MinimizedMap').style.visibility="visible";
+	if(isAdvanced)
+		document.getElementById('SealImages').style.visibility="visible";
 	document.querySelector('.NVMapMax').style.visibility="hidden";
 	document.querySelector('.AHMapMax').style.visibility="hidden";
 	document.querySelector('.CaMapMax').style.visibility="hidden";
@@ -1470,6 +1537,7 @@ function logic() {
 		} else {
 			village1.setAttribute('src','images/YellowCheck.png');
 		}
+		candle.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 	mySrc = riviere1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
