@@ -519,8 +519,10 @@ catacombs1.onclick = function() {
 	mySrc = catacombs1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		catacombs1.setAttribute ('src','images/GrayCheck.png');
+		amulet.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		catacombs1.setAttribute ('src','images/GreenCheck.png');
+		amulet.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -529,8 +531,10 @@ catacombs2.onclick = function() {
 	mySrc = catacombs2.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		catacombs2.setAttribute ('src','images/GrayCheck.png');
+		necro.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		catacombs2.setAttribute ('src','images/GreenCheck.png');
+		necro.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -549,8 +553,10 @@ autumn1.onclick = function() {
 	mySrc = autumn1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		autumn1.setAttribute ('src','images/GrayCheck.png');
+		keyofhope.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumn1.setAttribute ('src','images/GreenCheck.png');
+		keyofhope.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -559,8 +565,10 @@ autumn2.onclick = function() {
 	mySrc = autumn2.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		autumn2.setAttribute ('src','images/GrayCheck.png');
+		claws.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumn2.setAttribute ('src','images/GreenCheck.png');
+		claws.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -572,7 +580,7 @@ village1.onclick = function() {
 		candle.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		village1.setAttribute ('src','images/GreenCheck.png');
-		NVseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		candle.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -615,8 +623,10 @@ autumnSeal1.onclick = function() {
 	mySrc = autumnSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		autumnSeal1.setAttribute ('src','images/GraySealCheck.png');
+		AHseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumnSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		AHseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -625,8 +635,10 @@ autumnSeal2.onclick = function() {
 	mySrc = autumnSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		autumnSeal2.setAttribute ('src','images/GraySealCheck.png');
+		AHseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumnSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		AHseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -635,8 +647,10 @@ autumnSeal3.onclick = function() {
 	mySrc = autumnSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		autumnSeal3.setAttribute ('src','images/GraySealCheck.png');
+		AHseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumnSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		AHseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -645,8 +659,10 @@ autumnSeal4.onclick = function() {
 	mySrc = autumnSeal4.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		autumnSeal4.setAttribute ('src','images/GraySealCheck.png');
+		AHseal4.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		autumnSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		AHseal4.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -675,8 +691,10 @@ catacombsSeal1.onclick = function() {
 	mySrc = catacombsSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		catacombsSeal1.setAttribute ('src','images/GraySealCheck.png');
+		Caseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		catacombsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		Caseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -685,8 +703,10 @@ catacombsSeal2.onclick = function() {
 	mySrc = catacombsSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		catacombsSeal2.setAttribute ('src','images/GraySealCheck.png');
+		Caseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		catacombsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		Caseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -695,8 +715,10 @@ catacombsSeal3.onclick = function() {
 	mySrc = catacombsSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		catacombsSeal3.setAttribute ('src','images/GraySealCheck.png');
+		Caseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		catacombsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		Caseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1183,7 +1205,7 @@ mask10.onclick = function() {
 let NVMapMin = document.querySelector('.NVMapMin');
 NVMapMin.onclick = function() {
 	mySrc = NVMapMin.getAttribute('src');
-	alert("you pressed NV Map Min");
+	//alert("you pressed NV Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.NVMapMax').style.visibility="visible";
@@ -1192,7 +1214,7 @@ NVMapMin.onclick = function() {
 let AHMapMin = document.querySelector('.AHMapMin');
 AHMapMin.onclick = function() {
 	mySrc = AHMapMin.getAttribute('src');
-	alert("you pressed AH Map Min");
+	//alert("you pressed AH Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.AHMapMax').style.visibility="visible";
@@ -1201,7 +1223,7 @@ AHMapMin.onclick = function() {
 let CaMapMin = document.querySelector('.CaMapMin');
 CaMapMin.onclick = function() {
 	mySrc = CaMapMin.getAttribute('src');
-	alert("you pressed Ca Map Min");
+	//alert("you pressed Ca Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.CaMapMax').style.visibility="visible";
@@ -1361,10 +1383,196 @@ NVseal1.onclick = function() {
 		logic();
 	}
 }
+let AHtoNVwarp = document.querySelector('.AHtoNVwarp');
+AHtoNVwarp.onclick = function() {
+	mySrc = AHtoNVwarp.getAttribute('src');
+	document.querySelector('.AHMapMax').style.visibility="hidden";
+	document.querySelector('.NVMapMax').style.visibility="visible";
+}
+let AHtoFTwarp = document.querySelector('.AHtoFTwarp');
+AHtoFTwarp.onclick = function() {
+	mySrc = AHtoFTwarp.getAttribute('src');
+	document.querySelector('.AHMapMax').style.visibility="hidden";
+	document.querySelector('.FTMapMax').style.visibility="visible";
+}
+let AHtoCawarp = document.querySelector('.AHtoCawarp');
+AHtoCawarp.onclick = function() {
+	mySrc = AHtoCawarp.getAttribute('src');
+	document.querySelector('.AHMapMax').style.visibility="hidden";
+	document.querySelector('.CaMapMax').style.visibility="visible";
+}
+let keyofhope = document.querySelector('.keyofhope');
+keyofhope.onclick = function() {
+	myStyle = keyofhope.getAttribute('style');
+	if(keyofhope.style.background !== "white") {
+		//alert("white found");
+		keyofhope.style="background: white;mix-blend-mode: saturation;";
+		autumn1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		//alert("white not found");
+		keyofhope.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumn1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let claws = document.querySelector('.claws');
+claws.onclick = function() {
+	myStyle = claws.getAttribute('style');
+	if(claws.style.background !== "white") {
+		//alert("white found");
+		claws.style="background: white;mix-blend-mode: saturation;";
+		autumn2.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		//alert("white not found");
+		claws.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumn2.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let AHseal1 = document.querySelector('.AHseal1');
+AHseal1.onclick = function() {
+	myStyle = AHseal1.getAttribute('style');
+	if(AHseal1.style.background !== "white") {
+		//alert("white found");
+		AHseal1.style="background: white;mix-blend-mode: saturation;";
+		autumnSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		//alert("white not found");
+		AHseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumnSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let AHseal2 = document.querySelector('.AHseal2');
+AHseal2.onclick = function() {
+	myStyle = AHseal2.getAttribute('style');
+	if(AHseal2.style.background !== "white") {
+		//alert("white found");
+		AHseal2.style="background: white;mix-blend-mode: saturation;";
+		autumnSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		//alert("white not found");
+		AHseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumnSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let AHseal3 = document.querySelector('.AHseal3');
+AHseal3.onclick = function() {
+	myStyle = AHseal3.getAttribute('style');
+	if(AHseal3.style.background !== "white") {
+		//alert("white found");
+		AHseal3.style="background: white;mix-blend-mode: saturation;";
+		autumnSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		//alert("white not found");
+		AHseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumnSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let AHseal4 = document.querySelector('.AHseal4');
+AHseal4.onclick = function() {
+	myStyle = AHseal4.getAttribute('style');
+	if(AHseal4.style.background !== "white") {
+		//alert("white found");
+		AHseal4.style="background: white;mix-blend-mode: saturation;";
+		autumnSeal4.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		//alert("white not found");
+		AHseal4.style="background: none; rgba(FF,FF,FF,0.0);";
+		autumnSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let CatoFTwarp = document.querySelector('.CatoFTwarp');
+CatoFTwarp.onclick = function() {
+	mySrc = CatoFTwarp.getAttribute('src');
+	document.querySelector('.CaMapMax').style.visibility="hidden";
+	document.querySelector('.FTMapMax').style.visibility="visible";
+}
+let CatoAHwarp = document.querySelector('.CatoAHwarp');
+CatoAHwarp.onclick = function() {
+	mySrc = CatoAHwarp.getAttribute('src');
+	document.querySelector('.CaMapMax').style.visibility="hidden";
+	document.querySelector('.AHMapMax').style.visibility="visible";
+}
+let CatoRTwarp = document.querySelector('.CatoRTwarp');
+CatoRTwarp.onclick = function() {
+	mySrc = CatoRTwarp.getAttribute('src');
+	document.querySelector('.CaMapMax').style.visibility="hidden";
+	document.querySelector('.RTMapMax').style.visibility="visible";
+}
+let CatoBCwarp = document.querySelector('.CatoBCwarp');
+CatoBCwarp.onclick = function() {
+	mySrc = CatoBCwarp.getAttribute('src');
+	document.querySelector('.CaMapMax').style.visibility="hidden";
+	document.querySelector('.BCMapMax').style.visibility="visible";
+}
+let amulet = document.querySelector('.amulet');
+amulet.onclick = function() {
+	myStyle = amulet.getAttribute('style');
+	if(amulet.style.background !== "white") {
+		amulet.style="background: white;mix-blend-mode: saturation;";
+		catacombs1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		amulet.style="background: none; rgba(FF,FF,FF,0.0);";
+		catacombs1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let necro = document.querySelector('.necro');
+necro.onclick = function() {
+	myStyle = necro.getAttribute('style');
+	if(necro.style.background !== "white") {
+		necro.style="background: white;mix-blend-mode: saturation;";
+		catacombs2.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		necro.style="background: none; rgba(FF,FF,FF,0.0);";
+		catacombs2.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let Caseal1 = document.querySelector('.Caseal1');
+Caseal1.onclick = function() {
+	myStyle = Caseal1.getAttribute('style');
+	if(Caseal1.style.background !== "white") {
+		Caseal1.style="background: white;mix-blend-mode: saturation;";
+		catacombsSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Caseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		catacombsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let Caseal2 = document.querySelector('.Caseal2');
+Caseal2.onclick = function() {
+	myStyle = Caseal2.getAttribute('style');
+	if(Caseal2.style.background !== "white") {
+		Caseal2.style="background: white;mix-blend-mode: saturation;";
+		catacombsSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Caseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		catacombsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let Caseal3 = document.querySelector('.Caseal3');
+Caseal3.onclick = function() {
+	myStyle = Caseal3.getAttribute('style');
+	if(Caseal3.style.background !== "white") {
+		Caseal3.style="background: white;mix-blend-mode: saturation;";
+		catacombsSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Caseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		catacombsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
 let backButton = document.querySelector('.backButton');
 backButton.onclick = function() {
 	mySrc = backButton.getAttribute('src');
-	alert("you pressed BACK BUTTON");
+	//alert("you pressed BACK BUTTON");
 	document.querySelector('.MinimizedMap').style.visibility="visible";
 	if(isAdvanced)
 		document.getElementById('SealImages').style.visibility="visible";
@@ -1537,7 +1745,6 @@ function logic() {
 		} else {
 			village1.setAttribute('src','images/YellowCheck.png');
 		}
-		candle.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 	mySrc = riviere1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
