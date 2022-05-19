@@ -213,7 +213,7 @@
 		position: absolute;
 		top: 586px;
 		left: 251px;
-		background-color: rgba(169, 25, 127, 0.5);
+		background-color: rgba(169, 25, 127, 0.0);
 	  }
 	  .Caseal2
 	  {
@@ -222,7 +222,7 @@
 		position: absolute;
 		top: 586px;
 		left: 431px;
-		background-color: rgba(169, 25, 127, 0.5);
+		background-color: rgba(169, 25, 127, 0.0);
 	  }
 	  .Caseal3
 	  {
@@ -231,20 +231,110 @@
 		position: absolute;
 		top: 609px;
 		left: 477px;
-		background-color: rgba(169, 25, 127, 0.5);
+		background-color: rgba(169, 25, 127, 0.0);
 	  }
-	  .FTMapMax
+	  .FTMapImg
 	  {
 		position: absolute;
 		top: 430px;
 		left:0px;
 	  }
-	  .RTMapMax
+	  .FTtoAHwarp
+	  {
+		width: 49px;
+		height: 41px;
+		position: absolute;
+		top: 744px;
+		left: 91px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .FTtoCawarp
+	  {
+		width: 49px;
+		height: 41px;
+		position: absolute;
+		top: 851px;
+		left: 227px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .FTtoBCwarp
+	  {
+		width: 58px;
+		height: 39px;
+		position: absolute;
+		top: 746px;
+		left: 654px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .crown
+	  {
+		width: 37px;
+		height: 37px;
+		position: absolute;
+		top: 797px;
+		left: 569px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .FTseal1
+	  {
+		width: 86px;
+		height: 56px;
+		position: absolute;
+		top: 750px;
+		left: 356px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .FTseal2
+	  {
+		width: 27px;
+		height: 115px;
+		position: absolute;
+		top: 457px;
+		left: 327px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .RTMapImg
 	  {
 		width: 900px;
 		position: absolute;
 		top: 430px;
 		left:0px;
+	  }
+	  .fairy
+	  {
+		width: 23px;
+		height: 22px;
+		position: absolute;
+		top: 539px;
+		left: 23px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .RTseal1
+	  {
+		width: 17px;
+		height: 37px;
+		position: absolute;
+		top: 526px;
+		left: 781px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .RTseal2
+	  {
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		top: 658px;
+		left: 554px;
+		background-color: rgba(169, 25, 127, 0.0);
+	  }
+	  .RTseal3
+	  {
+		width: 19px;
+		height: 38px;
+		position: absolute;
+		top: 450px;
+		left: 176px;
+		background-color: rgba(169, 25, 127, 0.0);
 	  }
 	  .BCMapMax
 	  {
@@ -1147,8 +1237,24 @@
 	<div class="Caseal3" id="Caseal3"></div>
 	</div>
 	
-	<img src="images/Forlorn_Temple_Map.png" class="FTMapMax" id="FTMapMax" style="visibility:hidden;">
-	<img src="images/Rivière_Turquoise_Map.png" class="RTMapMax" id="RTMapMax" style="visibility:hidden;">
+	<div class="FTMapMax" id="FTMapMax" style="visibility:hidden;">
+	<img src="images/Forlorn_Temple_Map.png" class="FTMapImg" id="FTMapImg">
+	<div class="FTtoAHwarp" id="FTtoAHwarp"></div>
+	<div class="FTtoCawarp" id="FTtoCawarp"></div>
+	<div class="FTtoBCwarp" id="FTtoBCwarp"></div>
+	<div class="crown" id="crown"></div>
+	<div class="FTseal1" id="FTseal1"></div>
+	<div class="FTseal2" id="FTseal2"></div>
+	</div>
+	
+	<div class="RTMapMax" id="RTMapMax" style="visibility:hidden;">
+	<img src="images/Rivière_Turquoise_Map.png" class="RTMapImg" id="RTMapImg">
+	<div class="fairy" id="fairy"></div>
+	<div class="RTseal1" id="RTseal1"></div>
+	<div class="RTseal2" id="RTseal2"></div>
+	<div class="RTseal3" id="RTseal3"></div>
+	</div>
+	
 	<img src="images/Bamboo_Creek_Map.png" class="BCMapMax" id="BCMapMax" style="visibility:hidden;">
 	<img src="images/Howling_Grotto_Map.png" class="HGMapMax" id="HGMapMax" style="visibility:hidden;">
 	<img src="images/Sunken_Shrine_Map.png" class="SSMapMax" id="SSMapMax" style="visibility:hidden;">

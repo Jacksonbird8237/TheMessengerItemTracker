@@ -543,8 +543,10 @@ forlorn1.onclick = function() {
 	mySrc = forlorn1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		forlorn1.setAttribute ('src','images/GrayCheck.png');
+		crown.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		forlorn1.setAttribute ('src','images/GreenCheck.png');
+		crown.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -589,8 +591,10 @@ riviere1.onclick = function() {
 	mySrc = riviere1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		riviere1.setAttribute ('src','images/GrayCheck.png');
+		fairy.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		riviere1.setAttribute ('src','images/GreenCheck.png');
+		fairy.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -671,8 +675,10 @@ forlornSeal1.onclick = function() {
 	mySrc = forlornSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		forlornSeal1.setAttribute ('src','images/GraySealCheck.png');
+		FTseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		forlornSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		FTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -681,8 +687,10 @@ forlornSeal2.onclick = function() {
 	mySrc = forlornSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		forlornSeal2.setAttribute ('src','images/GraySealCheck.png');
+		FTseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		forlornSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		FTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1010,8 +1018,10 @@ riviereSeal1.onclick = function() {
 	mySrc = riviereSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		riviereSeal1.setAttribute ('src','images/GraySealCheck.png');
+		RTseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		riviereSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		RTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let riviereSeal2 = document.querySelector('.riviereSeal2');
@@ -1019,8 +1029,10 @@ riviereSeal2.onclick = function() {
 	mySrc = riviereSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		riviereSeal2.setAttribute ('src','images/GraySealCheck.png');
+		RTseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		riviereSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		RTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let riviereSeal3 = document.querySelector('.riviereSeal3');
@@ -1028,8 +1040,10 @@ riviereSeal3.onclick = function() {
 	mySrc = riviereSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		riviereSeal3.setAttribute ('src','images/GraySealCheck.png');
+		RTseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		riviereSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		RTseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1232,7 +1246,7 @@ CaMapMin.onclick = function() {
 let FTMapMin = document.querySelector('.FTMapMin');
 FTMapMin.onclick = function() {
 	mySrc = FTMapMin.getAttribute('src');
-	alert("you pressed FT Map Min");
+	//alert("you pressed FT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.FTMapMax').style.visibility="visible";
@@ -1241,7 +1255,7 @@ FTMapMin.onclick = function() {
 let RTMapMin = document.querySelector('.RTMapMin');
 RTMapMin.onclick = function() {
 	mySrc = RTMapMin.getAttribute('src');
-	alert("you pressed RT Map Min");
+	//alert("you pressed RT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.RTMapMax').style.visibility="visible";
@@ -1250,7 +1264,7 @@ RTMapMin.onclick = function() {
 let BCMapMin = document.querySelector('.BCMapMin');
 BCMapMin.onclick = function() {
 	mySrc = BCMapMin.getAttribute('src');
-	alert("you pressed BC Map Min");
+	//alert("you pressed BC Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.BCMapMax').style.visibility="visible";
@@ -1259,7 +1273,7 @@ BCMapMin.onclick = function() {
 let HGMapMin = document.querySelector('.HGMapMin');
 HGMapMin.onclick = function() {
 	mySrc = HGMapMin.getAttribute('src');
-	alert("you pressed HG Map Min");
+	//alert("you pressed HG Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.HGMapMax').style.visibility="visible";
@@ -1268,7 +1282,7 @@ HGMapMin.onclick = function() {
 let SSMapMin = document.querySelector('.SSMapMin');
 SSMapMin.onclick = function() {
 	mySrc = SSMapMin.getAttribute('src');
-	alert("you pressed SS Map Min");
+	//alert("you pressed SS Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.SSMapMax').style.visibility="visible";
@@ -1277,7 +1291,7 @@ SSMapMin.onclick = function() {
 let QMMapMin = document.querySelector('.QMMapMin');
 QMMapMin.onclick = function() {
 	mySrc = QMMapMin.getAttribute('src');
-	alert("you pressed QM Map Min");
+	//alert("you pressed QM Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.QMMapMax').style.visibility="visible";
@@ -1286,7 +1300,7 @@ QMMapMin.onclick = function() {
 let GPMapMin = document.querySelector('.GPMapMin');
 GPMapMin.onclick = function() {
 	mySrc = GPMapMin.getAttribute('src');
-	alert("you pressed GP Map Min");
+	//alert("you pressed GP Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.GPMapMax').style.visibility="visible";
@@ -1295,7 +1309,7 @@ GPMapMin.onclick = function() {
 let SCMapMin = document.querySelector('.SCMapMin');
 SCMapMin.onclick = function() {
 	mySrc = SCMapMin.getAttribute('src');
-	alert("you pressed SC Map Min");
+	//alert("you pressed SC Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.SCMapMax').style.visibility="visible";
@@ -1304,7 +1318,7 @@ SCMapMin.onclick = function() {
 let UnMapMin = document.querySelector('.UnMapMin');
 UnMapMin.onclick = function() {
 	mySrc = UnMapMin.getAttribute('src');
-	alert("you pressed Un Map Min");
+	//alert("you pressed Un Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.UnMapMax').style.visibility="visible";
@@ -1313,7 +1327,7 @@ UnMapMin.onclick = function() {
 let CRMapMin = document.querySelector('.CRMapMin');
 CRMapMin.onclick = function() {
 	mySrc = CRMapMin.getAttribute('src');
-	alert("you pressed CR Map Min");
+	//alert("you pressed CR Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.CRMapMax').style.visibility="visible";
@@ -1322,7 +1336,7 @@ CRMapMin.onclick = function() {
 let ESMapMin = document.querySelector('.ESMapMin');
 ESMapMin.onclick = function() {
 	mySrc = ESMapMin.getAttribute('src');
-	alert("you pressed ES Map Min");
+	//alert("you pressed ES Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.ESMapMax').style.visibility="visible";
@@ -1331,7 +1345,7 @@ ESMapMin.onclick = function() {
 let TTMapMin = document.querySelector('.TTMapMin');
 TTMapMin.onclick = function() {
 	mySrc = TTMapMin.getAttribute('src');
-	alert("you pressed TT Map Min");
+	//alert("you pressed TT Map Min");
 	document.querySelector('.MinimizedMap').style.visibility="hidden";
 	document.getElementById('SealImages').style.visibility="hidden";
 	document.querySelector('.TTMapMax').style.visibility="visible";
@@ -1566,6 +1580,108 @@ Caseal3.onclick = function() {
 	} else {
 		Caseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		catacombsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let FTtoAHwarp = document.querySelector('.FTtoAHwarp');
+FTtoAHwarp.onclick = function() {
+	mySrc = FTtoAHwarp.getAttribute('src');
+	document.querySelector('.FTMapMax').style.visibility="hidden";
+	document.querySelector('.AHMapMax').style.visibility="visible";
+}
+let FTtoCawarp = document.querySelector('.FTtoCawarp');
+FTtoCawarp.onclick = function() {
+	mySrc = FTtoCawarp.getAttribute('src');
+	document.querySelector('.FTMapMax').style.visibility="hidden";
+	document.querySelector('.CaMapMax').style.visibility="visible";
+}
+let FTtoBCwarp = document.querySelector('.FTtoBCwarp');
+FTtoBCwarp.onclick = function() {
+	mySrc = FTtoBCwarp.getAttribute('src');
+	document.querySelector('.FTMapMax').style.visibility="hidden";
+	document.querySelector('.BCMapMax').style.visibility="visible";
+}
+let crown = document.querySelector('.crown');
+crown.onclick = function() {
+	myStyle = crown.getAttribute('style');
+	if(crown.style.background !== "white") {
+		crown.style="background: white;mix-blend-mode: saturation;";
+		forlorn1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		crown.style="background: none; rgba(FF,FF,FF,0.0);";
+		forlorn1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let FTseal1 = document.querySelector('.FTseal1');
+FTseal1.onclick = function() {
+	myStyle = FTseal1.getAttribute('style');
+	if(FTseal1.style.background !== "white") {
+		FTseal1.style="background: white;mix-blend-mode: saturation;";
+		forlornSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		FTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		forlornSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let FTseal2 = document.querySelector('.FTseal2');
+FTseal2.onclick = function() {
+	myStyle = FTseal2.getAttribute('style');
+	if(FTseal1.style.background !== "white") {
+		FTseal2.style="background: white;mix-blend-mode: saturation;";
+		forlornSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		FTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		forlornSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let fairy = document.querySelector('.fairy');
+fairy.onclick = function() {
+	myStyle = fairy.getAttribute('style');
+	if(fairy.style.background !== "white") {
+		fairy.style="background: white;mix-blend-mode: saturation;";
+		riviere1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		fairy.style="background: none; rgba(FF,FF,FF,0.0);";
+		riviere1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let RTseal1 = document.querySelector('.RTseal1');
+RTseal1.onclick = function() {
+	myStyle = RTseal1.getAttribute('style');
+	if(RTseal1.style.background !== "white") {
+		RTseal1.style="background: white;mix-blend-mode: saturation;";
+		riviereSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		RTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		riviereSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let RTseal2 = document.querySelector('.RTseal2');
+RTseal2.onclick = function() {
+	myStyle = RTseal2.getAttribute('style');
+	if(RTseal2.style.background !== "white") {
+		RTseal2.style="background: white;mix-blend-mode: saturation;";
+		riviereSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		RTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		riviereSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let RTseal3 = document.querySelector('.RTseal3');
+RTseal3.onclick = function() {
+	myStyle = RTseal3.getAttribute('style');
+	if(RTseal3.style.background !== "white") {
+		RTseal3.style="background: white;mix-blend-mode: saturation;";
+		riviereSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		RTseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		riviereSeal3.setAttribute ('src','images/GreenSealCheck.png');
 		logic();
 	}
 }
