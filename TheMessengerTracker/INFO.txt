@@ -17,6 +17,8 @@ GRAY = checked
 
 Edit 11/3/20: I added seals which are the circle checks on the map. If you want the seals to appear hit the "advanced" button at the bottom. You can hit the "Normal" button to switch back.
 
+Edit 7/11/22: I added so many new features! now you can move the items and map around in the window. You can click on a location on the map to open a larger version of it (which can be disabled in the extras). In the larger maps you can click on items/seals/shops which will mark off the corresponding location on the small map. also you can click any warps to go to that larger map or press the back button to go back to the small map.
+
 Please let me know of any bugs :P
 
 

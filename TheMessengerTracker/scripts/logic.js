@@ -44,6 +44,10 @@ ppbtn.onclick = function() {
 	isPP = false;
 	document.getElementById('PPMap').style.display="none";
 }
+let dlmapbtn = document.querySelector('.dlmapbutton');
+dlmapbtn.onclick = function() {
+	document.getElementById('MinMaps').style.display="none";
+}
 let mapbtn = document.querySelector('.mapbutton');
 mapbtn.onclick = function() {
 	if(showMap === true){
@@ -383,8 +387,10 @@ sunken1.onclick = function() {
 	mySrc = sunken1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		sunken1.setAttribute ('src','images/GrayCheck.png');
+		tabi.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunken1.setAttribute ('src','images/GreenCheck.png');
+		tabi.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let sunken2 = document.querySelector('.sunken2');
@@ -392,8 +398,10 @@ sunken2.onclick = function() {
 	mySrc = sunken2.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		sunken2.setAttribute ('src','images/GrayCheck.png');
+		sun.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunken2.setAttribute ('src','images/GreenCheck.png');
+		sun.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -402,8 +410,10 @@ sunken3.onclick = function() {
 	mySrc = sunken3.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		sunken3.setAttribute ('src','images/GrayCheck.png');
+		moon.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunken3.setAttribute ('src','images/GreenCheck.png');
+		moon.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -412,8 +422,10 @@ sunken4.onclick = function() {
 	mySrc = sunken4.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		sunken4.setAttribute ('src','images/GrayCheck.png');
+		love.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunken4.setAttribute ('src','images/GreenCheck.png');
+		love.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -422,8 +434,10 @@ howling1.onclick = function() {
 	mySrc = howling1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		howling1.setAttribute ('src','images/GrayCheck.png');
+		wingsuit.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		howling1.setAttribute ('src','images/GreenCheck.png');
+		wingsuit.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let marsh1 = document.querySelector('.marsh1');
@@ -431,8 +445,10 @@ marsh1.onclick = function() {
 	mySrc = marsh1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		marsh1.setAttribute ('src','images/GrayCheck.png');
+		shell.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		marsh1.setAttribute ('src','images/GreenCheck.png');
+		shell.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let crags1 = document.querySelector('.crags1');
@@ -440,8 +456,10 @@ crags1.onclick = function() {
 	mySrc = crags1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		crags1.setAttribute ('src','images/GrayCheck.png');
+		grapple.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		crags1.setAttribute ('src','images/GreenCheck.png');
+		grapple.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let crags2 = document.querySelector('.crags2');
@@ -449,8 +467,10 @@ crags2.onclick = function() {
 	mySrc = crags2.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		crags2.setAttribute ('src','images/GrayCheck.png');
+		thistle.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		crags2.setAttribute ('src','images/GreenCheck.png');
+		thistle.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -459,8 +479,10 @@ crags3.onclick = function() {
 	mySrc = crags3.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		crags3.setAttribute ('src','images/GrayCheck.png');
+		strength.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		crags3.setAttribute ('src','images/GreenCheck.png');
+		strength.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -469,8 +491,10 @@ crags4.onclick = function() {
 	mySrc = crags4.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		crags4.setAttribute ('src','images/GrayCheck.png');
+		pyro.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		crags4.setAttribute ('src','images/GreenCheck.png');
+		pyro.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -479,8 +503,10 @@ skylands1.onclick = function() {
 	mySrc = skylands1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		skylands1.setAttribute ('src','images/GrayCheck.png');
+		symbiosis.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		skylands1.setAttribute ('src','images/GreenCheck.png');
+		symbiosis.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -489,8 +515,10 @@ cloudruin1.onclick = function() {
 	mySrc = cloudruin1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		cloudruin1.setAttribute ('src','images/GrayCheck.png');
+		acro.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cloudruin1.setAttribute ('src','images/GreenCheck.png');
+		acro.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -499,8 +527,10 @@ underworld1.onclick = function() {
 	mySrc = underworld1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		underworld1.setAttribute ('src','images/GrayCheck.png');
+		chaos.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		underworld1.setAttribute ('src','images/GreenCheck.png');
+		chaos.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -509,8 +539,10 @@ bamboo1.onclick = function() {
 	mySrc = bamboo1.getAttribute('src');
 	if(mySrc !== 'images/GrayCheck.png') {
 		bamboo1.setAttribute ('src','images/GrayCheck.png');
+		claustro.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		bamboo1.setAttribute ('src','images/GreenCheck.png');
+		claustro.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -735,8 +767,10 @@ bambooSeal1.onclick = function() {
 	mySrc = bambooSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		bambooSeal1.setAttribute ('src','images/GraySealCheck.png');
+		BCseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		bambooSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		BCseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -745,8 +779,10 @@ bambooSeal2.onclick = function() {
 	mySrc = bambooSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		bambooSeal2.setAttribute ('src','images/GraySealCheck.png');
+		BCseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		bambooSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		BCseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -755,8 +791,10 @@ bambooSeal3.onclick = function() {
 	mySrc = bambooSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		bambooSeal3.setAttribute ('src','images/GraySealCheck.png');
+		BCseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		bambooSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		BCseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -765,8 +803,10 @@ howlingSeal1.onclick = function() {
 	mySrc = howlingSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		howlingSeal1.setAttribute ('src','images/GraySealCheck.png');
+		HGseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		howlingSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		HGseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let howlingSeal2 = document.querySelector('.howlingSeal2');
@@ -774,8 +814,10 @@ howlingSeal2.onclick = function() {
 	mySrc = howlingSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		howlingSeal2.setAttribute ('src','images/GraySealCheck.png');
+		HGseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		howlingSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		HGseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let howlingSeal3 = document.querySelector('.howlingSeal3');
@@ -783,8 +825,10 @@ howlingSeal3.onclick = function() {
 	mySrc = howlingSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		howlingSeal3.setAttribute ('src','images/GraySealCheck.png');
+		HGseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		howlingSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		HGseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let marshSeal1 = document.querySelector('.marshSeal1');
@@ -792,8 +836,10 @@ marshSeal1.onclick = function() {
 	mySrc = marshSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		marshSeal1.setAttribute ('src','images/GraySealCheck.png');
+		QMseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		marshSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		QMseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let marshSeal12 = document.querySelector('.marshSeal2');
@@ -801,8 +847,10 @@ marshSeal2.onclick = function() {
 	mySrc = marshSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		marshSeal2.setAttribute ('src','images/GraySealCheck.png');
+		QMseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		marshSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		QMseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let marshSeal3 = document.querySelector('.marshSeal3');
@@ -810,8 +858,10 @@ marshSeal3.onclick = function() {
 	mySrc = marshSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		marshSeal3.setAttribute ('src','images/GraySealCheck.png');
+		QMseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		marshSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		QMseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let cragsSeal1 = document.querySelector('.cragsSeal1');
@@ -819,8 +869,10 @@ cragsSeal1.onclick = function() {
 	mySrc = cragsSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cragsSeal1.setAttribute ('src','images/GraySealCheck.png');
+		SCseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cragsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		SCseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -829,8 +881,10 @@ cragsSeal2.onclick = function() {
 	mySrc = cragsSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cragsSeal2.setAttribute ('src','images/GraySealCheck.png');
+		SCseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cragsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		SCseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -839,8 +893,10 @@ cragsSeal3.onclick = function() {
 	mySrc = cragsSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cragsSeal3.setAttribute ('src','images/GraySealCheck.png');
+		SCseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cragsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		SCseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -849,8 +905,10 @@ glacialSeal1.onclick = function() {
 	mySrc = glacialSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		glacialSeal1.setAttribute ('src','images/GraySealCheck.png');
+		GPseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		glacialSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		GPseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -859,8 +917,10 @@ glacialSeal2.onclick = function() {
 	mySrc = glacialSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		glacialSeal2.setAttribute ('src','images/GraySealCheck.png');
+		GPseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		glacialSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		GPseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -869,8 +929,10 @@ glacialSeal3.onclick = function() {
 	mySrc = glacialSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		glacialSeal3.setAttribute ('src','images/GraySealCheck.png');
+		GPseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		glacialSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		GPseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -879,8 +941,10 @@ towerSeal1.onclick = function() {
 	mySrc = towerSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		towerSeal1.setAttribute ('src','images/GraySealCheck.png');
+		TTseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		towerSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		TTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -889,8 +953,10 @@ towerSeal2.onclick = function() {
 	mySrc = towerSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		towerSeal2.setAttribute ('src','images/GraySealCheck.png');
+		TTseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		towerSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		TTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -899,8 +965,10 @@ towerSeal3.onclick = function() {
 	mySrc = towerSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		towerSeal3.setAttribute ('src','images/GraySealCheck.png');
+		TTseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		towerSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		TTseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -909,8 +977,10 @@ cloudruinSeal1.onclick = function() {
 	mySrc = cloudruinSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cloudruinSeal1.setAttribute ('src','images/GraySealCheck.png');
+		CRseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cloudruinSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		CRseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -919,8 +989,10 @@ cloudruinSeal2.onclick = function() {
 	mySrc = cloudruinSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cloudruinSeal2.setAttribute ('src','images/GraySealCheck.png');
+		CRseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cloudruinSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		CRseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -929,8 +1001,10 @@ cloudruinSeal3.onclick = function() {
 	mySrc = cloudruinSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cloudruinSeal3.setAttribute ('src','images/GraySealCheck.png');
+		CRseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cloudruinSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		CRseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -939,8 +1013,10 @@ cloudruinSeal4.onclick = function() {
 	mySrc = cloudruinSeal4.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		cloudruinSeal4.setAttribute ('src','images/GraySealCheck.png');
+		CRseal4.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		cloudruinSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		CRseal4.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -949,8 +1025,10 @@ underworldSeal1.onclick = function() {
 	mySrc = underworldSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		underworldSeal1.setAttribute ('src','images/GraySealCheck.png');
+		Unseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		underworldSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		Unseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -959,8 +1037,10 @@ underworldSeal2.onclick = function() {
 	mySrc = underworldSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		underworldSeal2.setAttribute ('src','images/GraySealCheck.png');
+		Unseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		underworldSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		Unseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -969,8 +1049,10 @@ underworldSeal3.onclick = function() {
 	mySrc = underworldSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		underworldSeal3.setAttribute ('src','images/GraySealCheck.png');
+		Unseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		underworldSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		Unseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -979,8 +1061,10 @@ underworldSeal4.onclick = function() {
 	mySrc = underworldSeal4.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		underworldSeal4.setAttribute ('src','images/GraySealCheck.png');
+		Unseal4.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		underworldSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		Unseal4.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -989,8 +1073,10 @@ sunkenSeal1.onclick = function() {
 	mySrc = sunkenSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		sunkenSeal1.setAttribute ('src','images/GraySealCheck.png');
+		SSseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunkenSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		SSseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 	}
 }
 let sunkenSeal2 = document.querySelector('.sunkenSeal2');
@@ -998,8 +1084,10 @@ sunkenSeal2.onclick = function() {
 	mySrc = sunkenSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		sunkenSeal2.setAttribute ('src','images/GraySealCheck.png');
+		SSseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunkenSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		SSseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1008,8 +1096,10 @@ sunkenSeal3.onclick = function() {
 	mySrc = sunkenSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		sunkenSeal3.setAttribute ('src','images/GraySealCheck.png');
+		SSseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		sunkenSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		SSseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1052,8 +1142,10 @@ skylandsSeal1.onclick = function() {
 	mySrc = skylandsSeal1.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		skylandsSeal1.setAttribute ('src','images/GraySealCheck.png');
+		ESseal1.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		skylandsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		ESseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1062,8 +1154,10 @@ skylandsSeal2.onclick = function() {
 	mySrc = skylandsSeal2.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		skylandsSeal2.setAttribute ('src','images/GraySealCheck.png');
+		ESseal2.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		skylandsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		ESseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1072,8 +1166,10 @@ skylandsSeal3.onclick = function() {
 	mySrc = skylandsSeal3.getAttribute('src');
 	if(mySrc !== 'images/GraySealCheck.png') {
 		skylandsSeal3.setAttribute ('src','images/GraySealCheck.png');
+		ESseal3.style="background: white;mix-blend-mode: saturation;";
 	} else {
 		skylandsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		ESseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		logic();
 	}
 }
@@ -1628,7 +1724,7 @@ FTseal1.onclick = function() {
 let FTseal2 = document.querySelector('.FTseal2');
 FTseal2.onclick = function() {
 	myStyle = FTseal2.getAttribute('style');
-	if(FTseal1.style.background !== "white") {
+	if(FTseal2.style.background !== "white") {
 		FTseal2.style="background: white;mix-blend-mode: saturation;";
 		forlornSeal2.setAttribute ('src','images/GraySealCheck.png');
 	} else {
@@ -1682,6 +1778,682 @@ RTseal3.onclick = function() {
 	} else {
 		RTseal3.style="background: none; rgba(FF,FF,FF,0.0);";
 		riviereSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let BCtoFTwarp = document.querySelector('.BCtoFTwarp');
+BCtoFTwarp.onclick = function() {
+	mySrc = BCtoFTwarp.getAttribute('src');
+	document.querySelector('.BCMapMax').style.visibility="hidden";
+	document.querySelector('.FTMapMax').style.visibility="visible";
+}
+let BCtoCawarp = document.querySelector('.BCtoCawarp');
+BCtoCawarp.onclick = function() {
+	mySrc = BCtoCawarp.getAttribute('src');
+	document.querySelector('.BCMapMax').style.visibility="hidden";
+	document.querySelector('.CaMapMax').style.visibility="visible";
+}
+let BCtoHGwarp = document.querySelector('.BCtoHGwarp');
+BCtoHGwarp.onclick = function() {
+	mySrc = BCtoHGwarp.getAttribute('src');
+	document.querySelector('.BCMapMax').style.visibility="hidden";
+	document.querySelector('.HGMapMax').style.visibility="visible";
+}
+let claustro = document.querySelector('.claustro');
+claustro.onclick = function() {
+	myStyle = claustro.getAttribute('style');
+	if(claustro.style.background !== "white") {
+		claustro.style="background: white;mix-blend-mode: saturation;";
+		bamboo1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		claustro.style="background: none; rgba(FF,FF,FF,0.0);";
+		bamboo1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let BCseal1 = document.querySelector('.BCseal1');
+BCseal1.onclick = function() {
+	myStyle = BCseal1.getAttribute('style');
+	if(BCseal1.style.background !== "white") {
+		BCseal1.style="background: white;mix-blend-mode: saturation;";
+		bambooSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		BCseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		bambooSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let BCseal2 = document.querySelector('.BCseal2');
+BCseal2.onclick = function() {
+	myStyle = BCseal2.getAttribute('style');
+	if(BCseal2.style.background !== "white") {
+		BCseal2.style="background: white;mix-blend-mode: saturation;";
+		bambooSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		BCseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		bambooSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let BCseal3 = document.querySelector('.BCseal3');
+BCseal3.onclick = function() {
+	myStyle = BCseal3.getAttribute('style');
+	if(BCseal3.style.background !== "white") {
+		BCseal3.style="background: white;mix-blend-mode: saturation;";
+		bambooSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		BCseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		bambooSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let HGtoBCwarp = document.querySelector('.HGtoBCwarp');
+HGtoBCwarp.onclick = function() {
+	mySrc = HGtoBCwarp.getAttribute('src');
+	document.querySelector('.HGMapMax').style.visibility="hidden";
+	document.querySelector('.BCMapMax').style.visibility="visible";
+}
+let HGtoSSwarp = document.querySelector('.HGtoSSwarp');
+HGtoSSwarp.onclick = function() {
+	mySrc = HGtoSSwarp.getAttribute('src');
+	document.querySelector('.HGMapMax').style.visibility="hidden";
+	document.querySelector('.SSMapMax').style.visibility="visible";
+}
+let HGtoQMwarp = document.querySelector('.HGtoQMwarp');
+HGtoQMwarp.onclick = function() {
+	mySrc = HGtoQMwarp.getAttribute('src');
+	document.querySelector('.HGMapMax').style.visibility="hidden";
+	document.querySelector('.QMMapMax').style.visibility="visible";
+}
+let HGtoQMwarp2 = document.querySelector('.HGtoQMwarp2');
+HGtoQMwarp2.onclick = function() {
+	mySrc = HGtoQMwarp2.getAttribute('src');
+	document.querySelector('.HGMapMax').style.visibility="hidden";
+	document.querySelector('.QMMapMax').style.visibility="visible";
+}
+let wingsuit = document.querySelector('.wingsuit');
+wingsuit.onclick = function() {
+	myStyle = wingsuit.getAttribute('style');
+	if(wingsuit.style.background !== "white") {
+		wingsuit.style="background: white;mix-blend-mode: saturation;";
+		howling1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		wingsuit.style="background: none; rgba(FF,FF,FF,0.0);";
+		howling1.setAttribute ('src','images/GreenCheck.png');
+	}
+}
+let HGseal1 = document.querySelector('.HGseal1');
+HGseal1.onclick = function() {
+	myStyle = HGseal1.getAttribute('style');
+	if(HGseal1.style.background !== "white") {
+		HGseal1.style="background: white;mix-blend-mode: saturation;";
+		howlingSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		HGseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		howlingSeal1.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let HGseal2 = document.querySelector('.HGseal2');
+HGseal2.onclick = function() {
+	myStyle = HGseal2.getAttribute('style');
+	if(HGseal2.style.background !== "white") {
+		HGseal2.style="background: white;mix-blend-mode: saturation;";
+		howlingSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		HGseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		howlingSeal2.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let HGseal3 = document.querySelector('.HGseal3');
+HGseal3.onclick = function() {
+	myStyle = HGseal3.getAttribute('style');
+	if(HGseal3.style.background !== "white") {
+		HGseal3.style="background: white;mix-blend-mode: saturation;";
+		howlingSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		HGseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		howlingSeal3.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let SStoHGwarp = document.querySelector('.SStoHGwarp');
+SStoHGwarp.onclick = function() {
+	mySrc = SStoHGwarp.getAttribute('src');
+	document.querySelector('.SSMapMax').style.visibility="hidden";
+	document.querySelector('.HGMapMax').style.visibility="visible";
+}
+let tabi = document.querySelector('.tabi');
+tabi.onclick = function() {
+	myStyle = tabi.getAttribute('style');
+	if(tabi.style.background !== "white") {
+		tabi.style="background: white;mix-blend-mode: saturation;";
+		sunken1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		tabi.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunken1.setAttribute ('src','images/GreenCheck.png');
+	}
+}
+let sun = document.querySelector('.sun');
+sun.onclick = function() {
+	myStyle = sun.getAttribute('style');
+	if(sun.style.background !== "white") {
+		sun.style="background: white;mix-blend-mode: saturation;";
+		sunken2.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		sun.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunken2.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let moon = document.querySelector('.moon');
+moon.onclick = function() {
+	myStyle = moon.getAttribute('style');
+	if(moon.style.background !== "white") {
+		moon.style="background: white;mix-blend-mode: saturation;";
+		sunken3.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		moon.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunken3.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let love = document.querySelector('.love');
+love.onclick = function() {
+	myStyle = love.getAttribute('style');
+	if(love.style.background !== "white") {
+		love.style="background: white;mix-blend-mode: saturation;";
+		sunken4.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		love.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunken4.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let SSseal1 = document.querySelector('.SSseal1');
+SSseal1.onclick = function() {
+	myStyle = SSseal1.getAttribute('style');
+	if(SSseal1.style.background !== "white") {
+		SSseal1.style="background: white;mix-blend-mode: saturation;";
+		sunkenSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SSseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunkenSeal1.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let SSseal2 = document.querySelector('.SSseal2');
+SSseal2.onclick = function() {
+	myStyle = SSseal2.getAttribute('style');
+	if(SSseal2.style.background !== "white") {
+		SSseal2.style="background: white;mix-blend-mode: saturation;";
+		sunkenSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SSseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunkenSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let SSseal3 = document.querySelector('.SSseal3');
+SSseal3.onclick = function() {
+	myStyle = SSseal3.getAttribute('style');
+	if(SSseal3.style.background !== "white") {
+		SSseal3.style="background: white;mix-blend-mode: saturation;";
+		sunkenSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SSseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		sunkenSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let QMtoHGwarp = document.querySelector('.QMtoHGwarp');
+QMtoHGwarp.onclick = function() {
+	mySrc = QMtoHGwarp.getAttribute('src');
+	document.querySelector('.QMMapMax').style.visibility="hidden";
+	document.querySelector('.HGMapMax').style.visibility="visible";
+}
+let QMtoHGwarp2 = document.querySelector('.QMtoHGwarp2');
+QMtoHGwarp2.onclick = function() {
+	mySrc = QMtoHGwarp2.getAttribute('src');
+	document.querySelector('.QMMapMax').style.visibility="hidden";
+	document.querySelector('.HGMapMax').style.visibility="visible";
+}
+let QMtoSCwarp = document.querySelector('.QMtoSCwarp');
+QMtoSCwarp.onclick = function() {
+	mySrc = QMtoSCwarp.getAttribute('src');
+	document.querySelector('.QMMapMax').style.visibility="hidden";
+	document.querySelector('.SCMapMax').style.visibility="visible";
+}
+let QMtoSCwarp2 = document.querySelector('.QMtoSCwarp2');
+QMtoSCwarp2.onclick = function() {
+	mySrc = QMtoSCwarp2.getAttribute('src');
+	document.querySelector('.QMMapMax').style.visibility="hidden";
+	document.querySelector('.SCMapMax').style.visibility="visible";
+}
+let shell = document.querySelector('.shell');
+shell.onclick = function() {
+	myStyle = shell.getAttribute('style');
+	if(shell.style.background !== "white") {
+		shell.style="background: white;mix-blend-mode: saturation;";
+		marsh1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		shell.style="background: none; rgba(FF,FF,FF,0.0);";
+		marsh1.setAttribute ('src','images/GreenCheck.png');
+	}
+}
+let QMseal1 = document.querySelector('.QMseal1');
+QMseal1.onclick = function() {
+	myStyle = QMseal1.getAttribute('style');
+	if(QMseal1.style.background !== "white") {
+		QMseal1.style="background: white;mix-blend-mode: saturation;";
+		marshSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		QMseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		marshSeal1.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let QMseal2 = document.querySelector('.QMseal2');
+QMseal2.onclick = function() {
+	myStyle = QMseal2.getAttribute('style');
+	if(QMseal2.style.background !== "white") {
+		QMseal2.style="background: white;mix-blend-mode: saturation;";
+		marshSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		QMseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		marshSeal2.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let QMseal3 = document.querySelector('.QMseal3');
+QMseal3.onclick = function() {
+	myStyle = QMseal3.getAttribute('style');
+	if(QMseal3.style.background !== "white") {
+		QMseal3.style="background: white;mix-blend-mode: saturation;";
+		marshSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		QMseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		marshSeal3.setAttribute ('src','images/GreenSealCheck.png');
+	}
+}
+let GPtoSCwarp = document.querySelector('.GPtoSCwarp');
+GPtoSCwarp.onclick = function() {
+	mySrc = GPtoSCwarp.getAttribute('src');
+	document.querySelector('.GPMapMax').style.visibility="hidden";
+	document.querySelector('.SCMapMax').style.visibility="visible";
+}
+let GPtoCRwarp = document.querySelector('.GPtoCRwarp');
+GPtoCRwarp.onclick = function() {
+	mySrc = GPtoCRwarp.getAttribute('src');
+	document.querySelector('.GPMapMax').style.visibility="hidden";
+	document.querySelector('.CRMapMax').style.visibility="visible";
+}
+let GPtoESwarp = document.querySelector('.GPtoESwarp');
+GPtoESwarp.onclick = function() {
+	mySrc = GPtoESwarp.getAttribute('src');
+	document.querySelector('.GPMapMax').style.visibility="hidden";
+	document.querySelector('.ESMapMax').style.visibility="visible";
+}
+let GPseal1 = document.querySelector('.GPseal1');
+GPseal1.onclick = function() {
+	myStyle = GPseal1.getAttribute('style');
+	if(GPseal1.style.background !== "white") {
+		GPseal1.style="background: white;mix-blend-mode: saturation;";
+		glacialSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		GPseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		glacialSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let GPseal2 = document.querySelector('.GPseal2');
+GPseal2.onclick = function() {
+	myStyle = GPseal2.getAttribute('style');
+	if(GPseal2.style.background !== "white") {
+		GPseal2.style="background: white;mix-blend-mode: saturation;";
+		glacialSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		GPseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		glacialSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let GPseal3 = document.querySelector('.GPseal3');
+GPseal3.onclick = function() {
+	myStyle = GPseal3.getAttribute('style');
+	if(GPseal3.style.background !== "white") {
+		GPseal3.style="background: white;mix-blend-mode: saturation;";
+		glacialSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		GPseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		glacialSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let SCtoQMwarp = document.querySelector('.SCtoQMwarp');
+SCtoQMwarp.onclick = function() {
+	mySrc = SCtoQMwarp.getAttribute('src');
+	document.querySelector('.SCMapMax').style.visibility="hidden";
+	document.querySelector('.QMMapMax').style.visibility="visible";
+}
+let SCtoGPwarp = document.querySelector('.SCtoGPwarp');
+SCtoGPwarp.onclick = function() {
+	mySrc = SCtoGPwarp.getAttribute('src');
+	document.querySelector('.SCMapMax').style.visibility="hidden";
+	document.querySelector('.GPMapMax').style.visibility="visible";
+}
+let SCtoQMwarp2 = document.querySelector('.SCtoQMwarp2');
+SCtoQMwarp2.onclick = function() {
+	mySrc = SCtoQMwarp2.getAttribute('src');
+	document.querySelector('.SCMapMax').style.visibility="hidden";
+	document.querySelector('.QMMapMax').style.visibility="visible";
+}
+let SCtoUnwarp = document.querySelector('.SCtoUnwarp');
+SCtoUnwarp.onclick = function() {
+	mySrc = SCtoUnwarp.getAttribute('src');
+	document.querySelector('.SCMapMax').style.visibility="hidden";
+	document.querySelector('.UnMapMax').style.visibility="visible";
+}
+let grapple = document.querySelector('.grapple');
+grapple.onclick = function() {
+	myStyle = grapple.getAttribute('style');
+	if(grapple.style.background !== "white") {
+		grapple.style="background: white;mix-blend-mode: saturation;";
+		crags1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		grapple.style="background: none; rgba(FF,FF,FF,0.0);";
+		crags1.setAttribute ('src','images/GreenCheck.png');
+	}
+}
+let thistle = document.querySelector('.thistle');
+thistle.onclick = function() {
+	myStyle = thistle.getAttribute('style');
+	if(thistle.style.background !== "white") {
+		thistle.style="background: white;mix-blend-mode: saturation;";
+		crags2.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		thistle.style="background: none; rgba(FF,FF,FF,0.0);";
+		crags2.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let leaves = document.querySelector('.leaves');
+leaves.onclick = function() {
+	myStyle = leaves.getAttribute('style');
+	if(leaves.style.background !== "white") {
+		leaves.style="background: white;mix-blend-mode: saturation;";
+	} else {
+		leaves.style="background: none; rgba(FF,FF,FF,0.0);";
+	}
+}
+let strength = document.querySelector('.strength');
+strength.onclick = function() {
+	myStyle = strength.getAttribute('style');
+	if(strength.style.background !== "white") {
+		strength.style="background: white;mix-blend-mode: saturation;";
+		crags3.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		strength.style="background: none; rgba(FF,FF,FF,0.0);";
+		crags3.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let pyro = document.querySelector('.pyro');
+pyro.onclick = function() {
+	myStyle = pyro.getAttribute('style');
+	if(pyro.style.background !== "white") {
+		pyro.style="background: white;mix-blend-mode: saturation;";
+		crags4.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		pyro.style="background: none; rgba(FF,FF,FF,0.0);";
+		crags4.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let SCseal1 = document.querySelector('.SCseal1');
+SCseal1.onclick = function() {
+	myStyle = SCseal1.getAttribute('style');
+	if(SCseal1.style.background !== "white") {
+		SCseal1.style="background: white;mix-blend-mode: saturation;";
+		cragsSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SCseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		cragsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let SCseal2 = document.querySelector('.SCseal2');
+SCseal2.onclick = function() {
+	myStyle = SCseal1.getAttribute('style');
+	if(SCseal2.style.background !== "white") {
+		SCseal2.style="background: white;mix-blend-mode: saturation;";
+		cragsSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SCseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		cragsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let SCseal3 = document.querySelector('.SCseal3');
+SCseal3.onclick = function() {
+	myStyle = SCseal3.getAttribute('style');
+	if(SCseal3.style.background !== "white") {
+		SCseal3.style="background: white;mix-blend-mode: saturation;";
+		cragsSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		SCseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		cragsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let UntoSCwarp = document.querySelector('.UntoSCwarp');
+UntoSCwarp.onclick = function() {
+	mySrc = UntoSCwarp.getAttribute('src');
+	document.querySelector('.UnMapMax').style.visibility="hidden";
+	document.querySelector('.SCMapMax').style.visibility="visible";
+}
+let chaos = document.querySelector('.chaos');
+chaos.onclick = function() {
+	myStyle = chaos.getAttribute('style');
+	if(chaos.style.background !== "white") {
+		chaos.style="background: white;mix-blend-mode: saturation;";
+		underworld1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		chaos.style="background: none; rgba(FF,FF,FF,0.0);";
+		underworld1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let Unseal1 = document.querySelector('.Unseal1');
+Unseal1.onclick = function() {
+	myStyle = Unseal1.getAttribute('style');
+	if(Unseal1.style.background !== "white") {
+		Unseal1.style="background: white;mix-blend-mode: saturation;";
+		underworldSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Unseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		underworldSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let Unseal2 = document.querySelector('.Unseal2');
+Unseal2.onclick = function() {
+	myStyle = Unseal2.getAttribute('style');
+	if(Unseal2.style.background !== "white") {
+		Unseal2.style="background: white;mix-blend-mode: saturation;";
+		underworldSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Unseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		underworldSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let Unseal3 = document.querySelector('.Unseal3');
+Unseal3.onclick = function() {
+	myStyle = Unseal3.getAttribute('style');
+	if(Unseal3.style.background !== "white") {
+		Unseal3.style="background: white;mix-blend-mode: saturation;";
+		underworldSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Unseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		underworldSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let Unseal4 = document.querySelector('.Unseal4');
+Unseal4.onclick = function() {
+	myStyle = Unseal4.getAttribute('style');
+	if(Unseal4.style.background !== "white") {
+		Unseal4.style="background: white;mix-blend-mode: saturation;";
+		underworldSeal4.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		Unseal4.style="background: none; rgba(FF,FF,FF,0.0);";
+		underworldSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let CRtoGPwarp = document.querySelector('.CRtoGPwarp');
+CRtoGPwarp.onclick = function() {
+	mySrc = CRtoGPwarp.getAttribute('src');
+	document.querySelector('.CRMapMax').style.visibility="hidden";
+	document.querySelector('.GPMapMax').style.visibility="visible";
+}
+let acro = document.querySelector('.acro');
+acro.onclick = function() {
+	myStyle = acro.getAttribute('style');
+	if(acro.style.background !== "white") {
+		acro.style="background: white;mix-blend-mode: saturation;";
+		cloudruin1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		acro.style="background: none; rgba(FF,FF,FF,0.0);";
+		cloudruin1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let CRseal1 = document.querySelector('.CRseal1');
+CRseal1.onclick = function() {
+	myStyle = CRseal1.getAttribute('style');
+	if(CRseal1.style.background !== "white") {
+		CRseal1.style="background: white;mix-blend-mode: saturation;";
+		cloudruinSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		CRseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		cloudruinSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let CRseal2 = document.querySelector('.CRseal2');
+CRseal2.onclick = function() {
+	myStyle = CRseal2.getAttribute('style');
+	if(CRseal2.style.background !== "white") {
+		CRseal2.style="background: white;mix-blend-mode: saturation;";
+		cloudruinSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		CRseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		cloudruinSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let CRseal3 = document.querySelector('.CRseal3');
+CRseal3.onclick = function() {
+	myStyle = CRseal3.getAttribute('style');
+	if(CRseal3.style.background !== "white") {
+		CRseal3.style="background: white;mix-blend-mode: saturation;";
+		cloudruinSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		CRseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		cloudruinSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let CRseal4 = document.querySelector('.CRseal4');
+CRseal4.onclick = function() {
+	myStyle = CRseal4.getAttribute('style');
+	if(CRseal4.style.background !== "white") {
+		CRseal4.style="background: white;mix-blend-mode: saturation;";
+		cloudruinSeal4.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		CRseal4.style="background: none; rgba(FF,FF,FF,0.0);";
+		cloudruinSeal4.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let symbiosis = document.querySelector('.symbiosis');
+symbiosis.onclick = function() {
+	myStyle = symbiosis.getAttribute('style');
+	if(symbiosis.style.background !== "white") {
+		symbiosis.style="background: white;mix-blend-mode: saturation;";
+		skylands1.setAttribute ('src','images/GrayCheck.png');
+	} else {
+		symbiosis.style="background: none; rgba(FF,FF,FF,0.0);";
+		skylands1.setAttribute ('src','images/GreenCheck.png');
+		logic();
+	}
+}
+let ESseal1 = document.querySelector('.ESseal1');
+ESseal1.onclick = function() {
+	myStyle = ESseal1.getAttribute('style');
+	if(ESseal1.style.background !== "white") {
+		ESseal1.style="background: white;mix-blend-mode: saturation;";
+		skylandsSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		ESseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		skylandsSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let ESseal2 = document.querySelector('.ESseal2');
+ESseal2.onclick = function() {
+	myStyle = ESseal2.getAttribute('style');
+	if(ESseal2.style.background !== "white") {
+		ESseal2.style="background: white;mix-blend-mode: saturation;";
+		skylandsSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		ESseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		skylandsSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let ESseal3 = document.querySelector('.ESseal3');
+ESseal3.onclick = function() {
+	myStyle = ESseal3.getAttribute('style');
+	if(ESseal3.style.background !== "white") {
+		ESseal3.style="background: white;mix-blend-mode: saturation;";
+		skylandsSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		ESseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		skylandsSeal3.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let TTseal1 = document.querySelector('.TTseal1');
+TTseal1.onclick = function() {
+	myStyle = TTseal1.getAttribute('style');
+	if(TTseal1.style.background !== "white") {
+		TTseal1.style="background: white;mix-blend-mode: saturation;";
+		towerSeal1.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		TTseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		towerSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let TTseal2 = document.querySelector('.TTseal2');
+TTseal2.onclick = function() {
+	myStyle = TTseal2.getAttribute('style');
+	if(TTseal2.style.background !== "white") {
+		TTseal2.style="background: white;mix-blend-mode: saturation;";
+		towerSeal2.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		TTseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		towerSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
+	}
+}
+let TTseal3 = document.querySelector('.TTseal3');
+TTseal3.onclick = function() {
+	myStyle = TTseal3.getAttribute('style');
+	if(TTseal3.style.background !== "white") {
+		TTseal3.style="background: white;mix-blend-mode: saturation;";
+		towerSeal3.setAttribute ('src','images/GraySealCheck.png');
+	} else {
+		TTseal3.style="background: none; rgba(FF,FF,FF,0.0);";
+		towerSeal3.setAttribute ('src','images/GreenSealCheck.png');
 		logic();
 	}
 }
