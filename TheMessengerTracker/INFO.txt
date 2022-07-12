@@ -11,10 +11,13 @@ Candle will go: no candle -> candle -> seeds -> candle+seeds -> leaves -> candle
 you can click the squares on the map to show that you got that item location. mouse over the location to see what it corresponds to. 
 GREEN = obtainable in logic
 YELLOW = obtainable out of logic
+ORANGE = in theory obtainable out of logic (not proven)
 RED = unobtainable
 GRAY = checked
 
-Edit 10/30/20: I added seals which are the circle checks on the map. Currently there is no logic for yellow seals. I will edit this when I add logic for yellow seals. If you want the seals to appear hit the "adavnced" button at the bottom. You can hit the "Normal" button to switch back.
+Edit 11/3/20: I added seals which are the circle checks on the map. If you want the seals to appear hit the "advanced" button at the bottom. You can hit the "Normal" button to switch back.
+
+Edit 7/11/22: I added so many new features! now you can move the items and map around in the window. You can click on a location on the map to open a larger version of it (which can be disabled in the extras). In the larger maps you can click on items/seals/shops which will mark off the corresponding location on the small map. also you can click any warps to go to that larger map or press the back button to go back to the small map.
 
 Please let me know of any bugs :P
 
