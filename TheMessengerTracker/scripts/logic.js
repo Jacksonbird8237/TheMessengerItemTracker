@@ -807,6 +807,7 @@ howlingSeal1.onclick = function() {
 	} else {
 		howlingSeal1.setAttribute ('src','images/GreenSealCheck.png');
 		HGseal1.style="background: none; rgba(FF,FF,FF,0.0);";
+		logic();
 	}
 }
 let howlingSeal2 = document.querySelector('.howlingSeal2');
@@ -818,6 +819,7 @@ howlingSeal2.onclick = function() {
 	} else {
 		howlingSeal2.setAttribute ('src','images/GreenSealCheck.png');
 		HGseal2.style="background: none; rgba(FF,FF,FF,0.0);";
+		logic();
 	}
 }
 let howlingSeal3 = document.querySelector('.howlingSeal3');
@@ -1891,6 +1893,7 @@ HGseal1.onclick = function() {
 	} else {
 		HGseal1.style="background: none; rgba(FF,FF,FF,0.0);";
 		howlingSeal1.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
 	}
 }
 let HGseal2 = document.querySelector('.HGseal2');
@@ -1902,6 +1905,7 @@ HGseal2.onclick = function() {
 	} else {
 		HGseal2.style="background: none; rgba(FF,FF,FF,0.0);";
 		howlingSeal2.setAttribute ('src','images/GreenSealCheck.png');
+		logic();
 	}
 }
 let HGseal3 = document.querySelector('.HGseal3');
@@ -2758,6 +2762,22 @@ function logic() {
 				bambooSeal3.setAttribute('src','images/GreenSealCheck.png');
 			} else {
 				bambooSeal3.setAttribute('src','images/YellowSealCheck.png');
+			}
+		}
+		mySrc = howlingSeal1.getAttribute('src');
+		if(mySrc !== 'images/GraySealCheck.png') {
+			if(hasWingsuit === true) {
+				howlingSeal1.setAttribute('src','images/GreenSealCheck.png');
+			} else {
+				howlingSeal1.setAttribute('src','images/YellowSealCheck.png');
+			}
+		}
+		mySrc = howlingSeal2.getAttribute('src');
+		if(mySrc !== 'images/GraySealCheck.png') {
+			if(hasWingsuit === true && hasGrapple === true) {
+				howlingSeal2.setAttribute('src','images/GreenSealCheck.png');
+			} else {
+				howlingSeal2.setAttribute('src','images/YellowSealCheck.png');
 			}
 		}
 		mySrc = cragsSeal1.getAttribute('src');
